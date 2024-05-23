@@ -1,0 +1,4650 @@
+.redesign-backcompat * {
+    box-sizing: border-box;
+}
+html.redesign-backcompat {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.redesign-backcompat img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.redesign-backcompat article,
+.redesign-backcompat aside,
+.redesign-backcompat footer,
+.redesign-backcompat header,
+.redesign-backcompat nav,
+.redesign-backcompat section {
+    display: block;
+}
+
+.redesign-backcompat figcaption,
+.redesign-backcompat figure,
+.redesign-backcompat main {
+    display: block;
+}
+
+.redesign-backcompat figure.wp-block-image,
+.redesign-backcompat .wp-block-image .alignleft,
+.redesign-backcompat figure {
+    margin: 0;
+}
+
+.redesign-backcompat hr {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.redesign-backcompat pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+.redesign-backcompat a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    text-decoration: none;
+    color: #224F99;
+}
+
+.redesign-backcompat .site-content a {
+    text-decoration: underline;
+}
+
+.redesign-backcompat a:active,
+.redesign-backcompat a:hover {
+    outline-width: 0;
+    color: #ffa500;
+}
+
+.redesign-backcompat abbr[title] {
+    border-bottom: 1px #767676 dotted;
+    text-decoration: none;
+}
+
+.redesign-backcompat b,
+.redesign-backcompat strong {
+    font-weight: inherit;
+    font-weight: 700;
+}
+
+.redesign-backcompat code,
+.redesign-backcompat kbd,
+.redesign-backcompat samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+.redesign-backcompat dfn {
+    font-style: italic;
+}
+
+.redesign-backcompat mark {
+    background-color: #eee;
+    color: #222;
+}
+
+.redesign-backcompat small {
+    font-size: 80%;
+}
+
+.redesign-backcompat sub,
+.redesign-backcompat sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.redesign-backcompat sub {
+    bottom: -0.25em;
+}
+
+.redesign-backcompat sup {
+    top: -0.5em;
+}
+
+.redesign-backcompat audio,
+.redesign-backcompat video {
+    display: inline-block;
+}
+
+.redesign-backcompat audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+.redesign-backcompat img {
+    border-style: none;
+}
+
+.redesign-backcompat svg:not(:root) {
+    overflow: hidden;
+}
+
+.redesign-backcompat button,
+.redesign-backcompat input,
+.redesign-backcompat optgroup,
+.redesign-backcompat select,
+.redesign-backcompat textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.redesign-backcompat button,
+.redesign-backcompat input {
+    overflow: visible;
+}
+
+.redesign-backcompat button,
+.redesign-backcompat select {
+    text-transform: none;
+}
+
+.redesign-backcompat button,
+html.redesign-backcompat [type="button"],
+.redesign-backcompat [type="reset"],
+.redesign-backcompat [type="submit"] {
+    -webkit-appearance: button;
+}
+
+.redesign-backcompat button::-moz-focus-inner,
+.redesign-backcompat [type="button"]::-moz-focus-inner,
+.redesign-backcompat [type="reset"]::-moz-focus-inner,
+.redesign-backcompat [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+.redesign-backcompat fieldset {
+    border: 1px solid #bbb;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+.redesign-backcompat legend {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+.redesign-backcompat progress {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.redesign-backcompat textarea {
+    overflow: auto;
+}
+
+.redesign-backcompat [type="checkbox"],
+.redesign-backcompat [type="radio"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.redesign-backcompat [type="number"]::-webkit-inner-spin-button,
+.redesign-backcompat [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+.redesign-backcompat [type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+.redesign-backcompat [type="search"]::-webkit-search-cancel-button,
+.redesign-backcompat [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+.redesign-backcompat ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+.redesign-backcompat p {
+    margin: 0 0 15px;
+}
+
+.redesign-backcompat p:last-child {
+    margin: 0;
+}
+
+.redesign-backcompat .wp-block-image .alignright,
+.redesign-backcompat .wp-block-image {
+    margin: 0;
+}
+
+.redesign-backcompat details,
+.redesign-backcompat menu {
+    display: block;
+}
+
+.redesign-backcompat summary {
+    display: list-item;
+}
+
+.redesign-backcompat canvas {
+    display: inline-block;
+}
+
+.redesign-backcompat template {
+    display: none;
+}
+
+.redesign-backcompat [hidden] {
+    display: none;
+}
+
+.redesign-backcompat .clearfix:before,
+.redesign-backcompat .clearfix:after,
+.redesign-backcompat .container:before,
+.redesign-backcompat .container:after,
+.redesign-backcompat .container-fluid:before,
+.redesign-backcompat .container-fluid:after,
+.redesign-backcompat .row:before,
+.redesign-backcompat .row:after {
+  display: table;
+  content: " ";
+}
+
+.redesign-backcompat .clearfix:after,
+.redesign-backcompat .container:after,
+.redesign-backcompat .container-fluid:after,
+.redesign-backcompat .row:after {
+  clear: both;
+}
+
+.redesign-backcompat .df {
+    display: flex;
+    align-items: center;
+
+}
+
+.redesign-backcompat #overview {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: none;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    z-index: 7;
+}
+
+.redesign-backcompat #overview.in {
+    display: block;
+}
+
+body.redesign-backcompat {
+    margin: 0;
+    padding: 0;
+    background: #224F99;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color: #444D51;
+}
+
+.redesign-backcompat h1,
+.redesign-backcompat h2,
+.redesign-backcompat h3,
+.redesign-backcompat h4,
+.redesign-backcompat h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+.redesign-backcompat .mb3 {
+    margin-bottom: 30px;
+}
+
+.redesign-backcompat .mb4 {
+    margin-bottom: 60px;
+}
+
+.redesign-backcompat .ml3 {
+    margin-left: 20px !important;
+}
+
+.redesign-backcompat .mb0 {
+    margin-bottom: 0 !important;
+}
+
+.redesign-backcompat .sans {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/****Header****/
+
+.redesign-backcompat .has-mtsnb .main-header {
+	top: 41px;
+}
+
+.redesign-backcompat .has-mtsnb[style="padding-top: 0px;"] .main-header {
+	top: 0;
+}
+
+.redesign-backcompat .has-mtsnb[style="padding-top: 62px;"] .main-header {
+	top: 61px;
+}
+
+.redesign-backcompat .has-mtsnb[style="padding-top: 83px;"] .main-header {
+	top: 83px;
+}
+
+.redesign-backcompat .has-mtsnb[style="padding-top: 104px;"] .main-header {
+	top: 103px;
+}
+
+.redesign-backcompat .main-header,
+.redesign-backcompat.main-header {
+    position: relative;
+    z-index: 20;
+}
+
+.redesign-backcompat .blue_logo_header .header-top,
+.redesign-backcompat.blue_logo_header .header-top {
+    background: #fff;
+}
+
+.redesign-backcompat .blue_logo_header .logo,
+.redesign-backcompat.blue_logo_header .logo,
+.redesign-backcompat .blue_logo,
+.redesign-backcompat.blue_logo {
+    display: none;
+}
+
+.redesign-backcompat .blue_logo_header .blue_logo,
+.redesign-backcompat.blue_logo_header .blue_logo {
+    display: inline-block;
+}
+
+.redesign-backcompat .container {
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.redesign-backcompat .row {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.redesign-backcompat .col-12 {
+    max-width: 100%;
+    flex: 100% 0 0;
+    padding: 0 15px;
+}
+
+.redesign-backcompat .col-lg-6 {
+    max-width: 50%;
+    flex: 50% 0 0;
+    padding: 0 15px;
+}
+
+.redesign-backcompat .col-lg-5 {
+    max-width: 41.666667%;
+    flex: 41.666667% 0 0;
+    padding: 0 15px;
+}
+
+.redesign-backcompat .col-lg-4 {
+    max-width: 33.33333%;
+    flex: 33.33333% 0 0;
+    padding: 0 15px;
+}
+
+.redesign-backcompat .col-lg-2 {
+    max-width: 16.666667%;
+    flex: 16.666667% 0 0;
+    padding: 0 15px;
+}
+
+.redesign-backcompat .col-lg-3 {
+    max-width: 25%;
+    flex: 25% 0 0;
+    padding: 0 15px;
+}
+
+.redesign-backcompat .footer_menu_wrap {
+    max-width: 41.66666%;
+    flex: 41.66666% 0 0;
+    margin: 0 -15px;
+    display: flex;
+}
+
+.redesign-backcompat .footer_menu_wrap .col-lg-3 {
+    max-width: 50%;
+    flex: 50% 0 0;
+}
+
+.redesign-backcompat .footer_menu_wrap .col-lg-2 {
+    max-width: 50%;
+    flex: 50% 0 0;
+}
+
+.redesign-backcompat .header-inner {
+    height: 84px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.redesign-backcompat #reponsive_menu_btn {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 25px;
+    display: block;
+    height: 17px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    z-index: 7;
+    padding: 0;
+    border: none;
+    background: no-repeat;
+}
+
+.redesign-backcompat .signup_menu {
+    margin-right: 40px;
+}
+
+.redesign-backcompat #reponsive_menu_btn span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    border-radius: 3px;
+    width: 100%;
+    background: #fff;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.redesign-backcompat .blue_logo_header #reponsive_menu_btn span,
+.redesign-backcompat.blue_logo_header #reponsive_menu_btn span {
+    background: #224f99;
+}
+
+.redesign-backcompat #reponsive_menu_btn span:nth-child(1) {
+    top: 0px;
+}
+
+.redesign-backcompat #reponsive_menu_btn span:nth-child(2),
+.redesign-backcompat #reponsive_menu_btn span:nth-child(3) {
+    top: 8px;
+    width: 80%;
+    left: auto;
+    right: 0;
+}
+
+.redesign-backcompat #reponsive_menu_btn span:nth-child(4) {
+    top: 16px;
+}
+
+.redesign-backcompat #reponsive_menu_btn.replace span:nth-child(4),
+.redesign-backcompat #reponsive_menu_btn.replace span:nth-child(1) {
+    top: 6px;
+    width: 0%;
+    left: 50%;
+}
+
+.redesign-backcompat #reponsive_menu_btn.replace span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 100%;
+}
+
+.redesign-backcompat #reponsive_menu_btn.replace span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 100%;
+}
+
+.redesign-backcompat #mob-breadcrums {
+    display: none;
+    padding: 0px 10px 15px 10px;
+}
+
+.redesign-backcompat #mob-breadcrums li.menu-item {
+    width: 50%;list-style: none;text-align: center;
+    border-radius: 15px;
+    border-width: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.redesign-backcompat .menu-wrapper {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    right: -100%;
+    top: 84px;
+    width: 400px;
+    overflow: auto;
+    height: 100vh;
+    margin: auto;
+    transition: all 300ms ease;
+    z-index: -1;
+    position: fixed;
+    background: #fff;
+    padding: 30px 0 0 38px;
+}
+
+.redesign-backcompat .menu-wrapper.in {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+    z-index: 9;
+}
+
+.redesign-backcompat .main-header, .redesign-backcompat.main-header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    transition: all 300ms ease;
+}
+
+.redesign-backcompat .main-header.show_header, .redesign-backcompat.main-header.show_header {
+    background: #224F99;
+}
+
+.redesign-backcompat .adress-box,
+.redesign-backcompat .page-numbers,
+.redesign-backcompat .news-tabs,
+.redesign-backcompat .menu-sign-in-menu-container .menu,
+.redesign-backcompat .menu-main-new-menu-container .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redesign-backcompat .menu-main-new-menu-container .menu li.small_tel {
+    display: none;
+}
+
+.redesign-backcompat .menu-main-new-menu-container .menu li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.redesign-backcompat .menu-main-new-menu-container .menu li a {
+    font-weight: 600;
+    text-decoration: none !important;
+    font-size: 25px;
+    line-height: 40px;
+    transition: .3s ease-in-out;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #444D51;
+    display: inline-block;
+    padding-left: 20px;
+    position: relative;
+}
+
+.redesign-backcompat .menu-main-new-menu-container .menu li a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    transition: .3s ease-in-out;
+    top: 18px;
+    width: 0;
+    height: 0;
+    display: block;
+    border-radius: 15px;
+    background: #224f99;
+}
+
+.redesign-backcompat .menu-main-new-menu-container .menu li.big_hide {
+    display: none;
+}
+
+.redesign-backcompat .menu-main-new-menu-container .menu li.current-menu-item a::before,
+.redesign-backcompat .menu-main-new-menu-container .menu li a:hover::before {
+    width: 8px;
+    height: 8px;
+}
+
+.redesign-backcompat .menu-main-new-menu-container .menu li.current-menu-item a,
+.redesign-backcompat .menu-main-new-menu-container .menu li a:hover {
+    color: #224F99;
+}
+
+.redesign-backcompat .menu-sign-in-menu-container .menu {
+    display: flex;
+}
+
+.redesign-backcompat .menu-sign-in-menu-container .menu li:first-child {
+    margin: 0;
+}
+
+.redesign-backcompat .menu-sign-in-menu-container .menu li.btn1 a {
+    display: inline-block;
+    background: #224F99;
+    border-radius: 39px;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none !important;
+    padding: 10px 15px;
+    min-width: 120px;
+    text-align: center;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.redesign-backcompat .main-header.show_header .menu-sign-in-menu-container .menu li.btn1 a,
+.redesign-backcompat.main-header.show_header .menu-sign-in-menu-container .menu li.btn1 a {
+    background: #009cde;
+}
+
+.redesign-backcompat .menu-sign-in-menu-container .menu li.btn1 a:hover {
+    background: #ffa500;
+    color: #fff;
+}
+
+.redesign-backcompat .main-header.show_header .menu-sign-in-menu-container .menu li.btn1 a:hover,
+.redesign-backcompat.main-header.show_header .menu-sign-in-menu-container .menu li.btn1 a:hover {
+    background: #ffa500;
+    color: #fff;
+}
+
+.redesign-backcompat .menu-sign-in-menu-container .menu li {
+    list-style-type: none;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.redesign-backcompat .menu-sign-in-menu-container .menu li a {
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.redesign-backcompat .blue_logo_header .menu-sign-in-menu-container .menu li a,
+.redesign-backcompat.blue_logo_header .menu-sign-in-menu-container .menu li a {
+    color: #224F99;
+}
+
+.redesign-backcompat .blue_logo_header .menu-sign-in-menu-container .menu li a:hover,
+.redesign-backcompat.blue_logo_header .menu-sign-in-menu-container .menu li a:hover,
+.redesign-backcompat .blue_logo_header #mob-breadcrums li.menu-item:hover a,
+.redesign-backcompat.blue_logo_header #mob-breadcrums li.menu-item:hover a,
+.redesign-backcompat.blue_logo_header #mob-breadcrums li.menu-item.current-menu-item a {
+    color: #ff9000;
+}
+
+.redesign-backcompat .blue_logo_header .menu-sign-in-menu-container .menu li.btn1 a,
+.redesign-backcompat.blue_logo_header .menu-sign-in-menu-container .menu li.btn1 a {
+    background: linear-gradient(221.26deg, #FFA500 -3.4%, #FF8C00 90.74%), #201F1F;
+    color: #fff;
+    transition: none;
+}
+
+.redesign-backcompat .blue_logo_header .menu-sign-in-menu-container .menu li.btn1 a:hover,
+.redesign-backcompat.blue_logo_header .menu-sign-in-menu-container .menu li.btn1 a:hover {
+    background: #224F99;
+}
+
+.redesign-backcompat .menu-sign-in-menu-container .menu li.current-menu-item a,
+.redesign-backcompat .menu-sign-in-menu-container .menu li a:hover {
+    color: #224f99;
+    text-decoration: underline;
+}
+
+.redesign-backcompat .blue_logo_header #mob-breadcrums li.menu-item:hover ,
+.redesign-backcompat.blue_logo_header #mob-breadcrums li.menu-item:hover,
+.redesign-backcompat.blue_logo_header #mob-breadcrums li.menu-item.current-menu-item {
+    background-color: #224f99;
+}
+
+.redesign-backcompat #mob-breadcrums li.menu-item a:hover,
+.redesign-backcompat #mob-breadcrums li.menu-item:hover a {
+    color: #FFFFFF;
+}
+
+.redesign-backcompat #mob-breadcrums li.menu-item a {
+    color: #BBB;
+}
+
+.redesign-backcompat #mob-breadcrums li.menu-item.current-menu-item a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.redesign-backcompat #mob-breadcrums li.menu-item.current-menu-item ,
+.redesign-backcompat #mob-breadcrums li.menu-item:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.redesign-backcompat .show_header #mob-breadcrums li.menu-item.current-menu-item,
+.redesign-backcompat .show_header #mob-breadcrums li.menu-item:hover {
+    background-color: #FFFFFF;
+}
+
+.redesign-backcompat .show_header .menu-sign-in-menu-container .menu li.current-menu-item a,
+.redesign-backcompat .show_header .menu-sign-in-menu-container .menu li a:hover,
+.redesign-backcompat.show_header .menu-sign-in-menu-container .menu li.current-menu-item a,
+.redesign-backcompat.show_header .menu-sign-in-menu-container .menu li a:hover {
+    color: #FFFFFF;
+}
+
+.redesign-backcompat .show_header #mob-breadcrums li.menu-item.current-menu-item a,
+.redesign-backcompat .show_header #mob-breadcrums li.menu-item:hover a {
+    color: #224f99;
+}
+
+.redesign-backcompat .hero-images {
+    position: relative;
+    text-align: right;
+}
+
+.redesign-backcompat .hero_big {
+    display: inline-block;
+}
+
+.redesign-backcompat .hero_small {
+    position: absolute;
+    left: -17px;
+    top: 53px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: -23.609px 48.8461px 73.2692px rgba(23, 18, 43, 0.55);
+}
+
+.redesign-backcompat .hero  {
+    background-size: cover;
+    padding: 137px 0 95px;
+}
+
+.redesign-backcompat .hero-inner h1 {
+    font-size: 52px;
+    line-height: 65px;
+    color: #FFFFFF;
+    margin: 0 0 41px;
+}
+
+.redesign-backcompat .hero-inner {
+    padding: 82px 20px 0 0;
+}
+
+.redesign-backcompat .hero_descr {
+    font-size: 18px;
+    line-height: 25px;
+    color: #d1e1ef;
+}
+
+.redesign-backcompat .hero-btns {
+    padding-top: 61px;
+}
+
+.redesign-backcompat .webinar_form .gf_submit,
+.redesign-backcompat .form1 .gf_submit,
+.redesign-backcompat .btn2 {
+    display: inline-block;
+    background: linear-gradient(221.26deg, #FFA500 -3.4%, #FF8C00 90.74%), #201F1F;
+    border-radius: 28px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    min-width: 160px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 13px 15px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.redesign-backcompat .btn2.full {
+    min-width: 300px;
+    padding: 16px 15px;
+}
+
+.redesign-backcompat .webinar_form .gf_submit:hover,
+.redesign-backcompat .form1 .gf_submit:hover,
+.redesign-backcompat .btn2:hover {
+    background: #457fba;
+    color: #fff;
+}
+
+.redesign-backcompat .btn2.btn_play {
+    display: inline-flex;
+    padding-left: 54px;
+    align-items: center;
+    background: #457fba;
+}
+
+.redesign-backcompat .btn2.btn_play:hover {
+    background: #FFA500;
+}
+
+.redesign-backcompat .btn2.btn_play span {
+    display: inline-block;
+    background: #224F99;
+    position: absolute;
+    left: 12px;
+    top: 9px;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xLjUzLjk3QTEgMSAwIDAgMCAwIDEuOHYxMC4yNWExIDEgMCAwIDAgMS41My44NGw4LjEzLTUuMTJhMSAxIDAgMCAwIDAtMS43TDEuNTMuOThaIiBmaWxsPSIjZmZmIi8+PC9zdmc+");
+}
+
+.redesign-backcompat .hero-btns .btn2:first-child {
+    margin-right: 30px;
+}
+
+.redesign-backcompat .how_works_section {
+    padding: 111px 15px;
+}
+
+.redesign-backcompat .wmt {
+    color: #224F99;
+    font-weight: 500;
+}
+
+.redesign-backcompat .content-holder {
+    background: #fff;
+}
+
+.redesign-backcompat .blue_content {
+    padding-top: 84px;
+}
+
+.redesign-backcompat .img1 {
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.redesign-backcompat h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 34px;
+    color: #2B2B2B;
+}
+
+.redesign-backcompat .how_works_section figure {
+    margin-top: 22px;
+}
+
+.redesign-backcompat .how_works {
+    padding: 5px 0 0 88px;
+}
+
+.redesign-backcompat .how_works_item {
+    position: relative;
+    padding: 0 0 23px 105px;
+}
+
+.redesign-backcompat .how_works_wrapper {
+    position: relative;
+}
+
+.redesign-backcompat .how_works_item::before {
+    content: '';
+    width: 1.5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    display: block;
+    border-left: 2px dashed #009CDE;
+}
+
+.redesign-backcompat .how_works_item.last::before {
+    display: none;
+}
+
+.redesign-backcompat h3,
+.redesign-backcompat .how_works_item h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #444D51;
+}
+
+.redesign-backcompat .number {
+    position: absolute;
+    left: -5px;
+    top: -8px;
+    height: 73px;
+    width: 73px;
+    border: 5px solid #fff;
+    border-radius: 73px;
+    background: #009CDE;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    z-index: 5;
+    color: #FFFFFF;
+}
+
+.redesign-backcompat .how_works_descriptions {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.redesign-backcompat .how_works_item p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.redesign-backcompat .btn_box {
+    text-align: center;
+    padding-top: 23px;
+}
+
+.redesign-backcompat .tac {
+    text-align: center;
+}
+
+.redesign-backcompat .how_grow_descr {
+    max-width: 767px;
+    margin: 0 auto 67px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.redesign-backcompat .how_grow_item {
+    border: 2px solid #F4F5F7;
+    padding: 42px;
+    height: 100%;
+}
+
+.redesign-backcompat .how_grow_section .wp-block-columns {
+    margin: 0 !important;
+}
+
+.redesign-backcompat .how_grow_item h3 {
+    color: #224F99;
+    padding-top: 18px;
+    margin-bottom: 18px;
+}
+
+.redesign-backcompat .testimonial_item {
+    background: linear-gradient(221.26deg, #31C2FF -3.4%, #1A6BB3 101.08%), #201F1F;
+    position: relative;
+    padding: 60px 0 60px 108px;
+    color: #FFFFFF;
+}
+
+.redesign-backcompat .quote {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.redesign-backcompat .testimonial_description {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 48px 0 33px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.redesign-backcompat .testimonial_stuff {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.redesign-backcompat .testimonial_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .testimonial_item_right {
+    width: 534px;
+    flex: 534px 0 0;
+}
+
+.redesign-backcompat .testimonial_item_left {
+    flex: 48% 0 0;
+    width: 48%;
+}
+
+.redesign-backcompat .testimonial_item_right {
+    background: #fff;
+    padding: 46px 54px;
+}
+
+.redesign-backcompat .r_title,
+.redesign-backcompat .testimonial_item_right p {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #224F99;
+}
+
+.redesign-backcompat .testimonial_right_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .testimonial_right_wrapper figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #444D51;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    height: 70px;
+    width: 132px;
+}
+
+.redesign-backcompat .testimonials_section {
+    padding: 111px 15px;
+}
+
+.redesign-backcompat .advantage_item {
+    position: relative;
+    padding: 46px 0 29px 10px;
+    height: 100%;
+}
+
+.redesign-backcompat .advantage_item::before {
+    content: '';
+    width: 1px;
+    height: 102px;
+    background: #F4F5F7;
+    display: block;
+    position: absolute;
+    left: -25px;
+    top: 108px;
+}
+
+.redesign-backcompat .advantage_item.first_ad::before {
+    display: none;
+}
+
+.redesign-backcompat .advantage_item h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 19px;
+}
+
+.redesign-backcompat .attract_section .wp-block-column {
+    position: relative;
+}
+
+.redesign-backcompat .attract_section p {
+    margin: 0;
+}
+
+.redesign-backcompat .attr_image {
+    position: absolute;
+    left: 63px;
+    top: 58px;
+}
+
+.redesign-backcompat .attract_section {
+    background: #F4F5F7;
+    overflow: hidden;
+    width: 100%;
+}
+
+.redesign-backcompat .attr_wrapper {
+    width: 609px;
+    float: right;
+    margin-top: 129px;
+    padding-right: 128px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+.redesign-backcompat .attr_wrapper p {
+    margin-bottom: 39px;
+}
+
+.redesign-backcompat .efforts_section {
+    padding: 111px 15px;
+}
+
+.redesign-backcompat .effortless_wrapper {
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.redesign-backcompat .effortless_wrapper .btn_box {
+    padding-top: 65px;
+}
+
+.redesign-backcompat .effortless_pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .effortless_wrapper p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+.redesign-backcompat .resoursec_item {
+    padding-top: 41px;
+}
+
+.redesign-backcompat .r_title {
+    padding-left: 23px;
+}
+
+.redesign-backcompat .webinar {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 65px;
+    margin-bottom: 12px;
+}
+
+
+.redesign-backcompat .deliver-section {
+    padding: 150px 15px 73px;
+}
+
+.redesign-backcompat .deliver-description {
+    padding-right: 142px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 27px;
+}
+
+.redesign-backcompat .will-learn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 580px;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .will-learn-item {
+    flex: 235px 0 0;
+    width: 235px;
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 43px;
+}
+
+.redesign-backcompat .will-learn-item figure {
+    margin-right: 33px;
+    padding-top: 20px;
+    flex: 0 0 auto;
+}
+
+.redesign-backcompat .deliver-wrapper h3 {
+    color: #224F99;
+    margin-bottom: 49px;
+}
+
+.redesign-backcompat .webinar-wrapper h1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 65px;
+    margin: 0;
+}
+
+.redesign-backcompat .webinar_form_wrapper .gform_heading {
+    display: none;
+}
+
+.redesign-backcompat .webinar_form .gfield_label {
+    display: none;
+}
+
+.redesign-backcompat .webinar_form {
+    padding: 74px 33px 85px;
+    background: #fff;
+    box-shadow: 0px 10px 80px rgba(34, 79, 153, 0.15);
+    border-radius: 8px;
+}
+
+.redesign-backcompat .hostedby-wrapper {
+    padding-top: 40px;
+}
+
+.redesign-backcompat .hostedby-wrapper h2 {
+    text-transform: uppercase;
+}
+
+.redesign-backcompat .hostedby-inner {
+    display: flex;
+    position: relative;
+    padding: 11px 86px 0;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .hostedby-user {
+    overflow: hidden;
+    border-radius: 200px;
+    border: 2px solid #fff;
+}
+
+.redesign-backcompat .hostedbyimg {
+    position: relative;
+    margin-right: 39px;
+    flex: 0 0 auto;
+}
+
+.redesign-backcompat .hostedby-micro {
+    position: absolute;
+    right: -9px;
+    bottom: -3px;
+    border-radius: 53px;
+    height: 53px;
+    width: 53px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.redesign-backcompat .hostedby-micro img {
+    margin-left: 4px;
+}
+
+.redesign-backcompat .hostedby-section .wp-block-cover {
+    align-items: flex-start;
+}
+
+.redesign-backcompat .hostedby-item {
+    flex: 45% 0 0;
+    width: 45%;
+}
+
+.redesign-backcompat .hostedby-inner::before {
+    content: '';
+    background: rgba(255, 255, 255, 0.1);
+    height: 100px;
+    width: 3px;
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.redesign-backcompat .author {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.redesign-backcompat .stuff {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.redesign-backcompat .banner-btns .btn2,
+.redesign-backcompat .webinar_form .gf_submit {
+    width: 300px;
+    padding: 17px;
+}
+
+.redesign-backcompat .webinar_form .gform_footer {
+    text-align: center;
+}
+
+.redesign-backcompat .banner-wrapper {
+    background: #FFFFFF;
+    box-shadow: 10px 20px 54.6003px rgba(17, 49, 101, 0.15);
+    border-radius: 8px;
+    padding: 132px 130px 112px;
+    position: relative;
+    z-index: 5;
+}
+
+.redesign-backcompat .banner-btns {
+    padding-top: 61px;
+}
+
+.redesign-backcompat .banner-description {
+    font-size: 35px;
+    line-height: 50px;
+    color: #444D51;
+    padding: 0px 83px;
+}
+
+.redesign-backcompat .banner-wrapper h2 {
+    font-size: 40px;
+    line-height: 55px;
+    color: #224F99;
+}
+
+.redesign-backcompat .hostedby-section {
+    padding-bottom: 124px;
+}
+
+.redesign-backcompat .resoursec_inner {
+    padding: 0 10px 0 21px;
+}
+
+.redesign-backcompat .form1 .gfield--width-half {
+    width: 360px;
+    flex: 360px 0 0;
+    margin-bottom: 31px;
+}
+
+.redesign-backcompat .form1 .gform_fields {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 91px;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .homeform {
+    width: 960px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 54.6003px rgba(17, 49, 101, 0.15);
+    border-radius: 8px;
+    position: relative;
+    z-index: 5;
+    padding: 81px 0 75px;
+}
+
+.redesign-backcompat .homeform h2 {
+    color: #224F99;
+}
+
+.redesign-backcompat .resources_section {
+    padding-bottom: 92px;
+}
+
+.redesign-backcompat .homeform_section {
+    position: relative;
+}
+
+.redesign-backcompat .homeform_section::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 50%;
+    bottom: 0;
+    width: 100%;
+    background: #224F99;
+    left: 0;
+}
+
+.redesign-backcompat .form1 .gfield_label {
+    display: none;
+}
+
+.redesign-backcompat .webinar_form .gfield input,
+.redesign-backcompat .form1 .gfield input {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    color: #808080;
+    padding: 10px 27px;
+}
+
+.redesign-backcompat .webinar_form .gfield input {
+    height: 60px;
+}
+
+.redesign-backcompat .webinar_form .gfield input:focus,
+.redesign-backcompat .webinar_form .gfield input:focus-visible,
+.redesign-backcompat .form1 .gfield input:focus,
+.redesign-backcompat .form1 .gfield input:focus-visible {
+    box-shadow: none !important;
+    border-color: #224F99;
+    outline: none;
+}
+
+.redesign-backcompat .webinar_form .gfield {
+    margin-bottom: 47px;
+}
+
+.redesign-backcompat .form1 {
+    padding-top: 47px;
+    position: relative;
+}
+
+.redesign-backcompat .form1 .gform_footer {
+    position: absolute;
+    width: 360px;
+    right: 97px;
+    bottom: 28px;
+}
+
+.redesign-backcompat .form1 .gf_submit {
+    width: 100%;
+    padding: 17px 15px;
+}
+
+.redesign-backcompat .homeform .gform_validation_errors {
+    padding: 0 91px;
+}
+
+.redesign-backcompat .homeform .gform_validation_errors h2 {
+    color: red;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.redesign-backcompat .form1 .validation_message {
+    font-size: 14px;
+    color: red;
+}
+
+/****Better then*****/
+
+.redesign-backcompat .better-top-wrapper {
+    padding-bottom: 61px;
+}
+
+.redesign-backcompat .better-top h1 {
+    margin: 0 0 21px;
+    font-size: 52px;
+    line-height: 65px;
+}
+
+.redesign-backcompat .better-top {
+    padding-top: 110px;
+}
+
+.redesign-backcompat better-descr {
+	font-size: 18px;
+	line-height: 26px;
+	padding-right: 60px;
+    opacity: 0.8;
+}
+
+.redesign-backcompat .better-rating {
+    padding-top: 40px;
+}
+
+.redesign-backcompat .better-rating-top {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+.redesign-backcompat .better-rating-body {
+    padding-top: 10px;
+    width: 387px;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .power-by {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.redesign-backcompat .form-sign-up_wrapper {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.redesign-backcompat .form-sign-up_wrapper .gform_heading {
+    display: none;
+}
+
+.redesign-backcompat .form-sign-up_wrapper .gfield_validation_message {
+    font-size: 12px;
+    color: red;
+}
+
+.redesign-backcompat h2.gform_submission_error {
+    color: red;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.redesign-backcompat .gform_validation_errors {
+	top: 14px;
+	left: 36px;
+	position: absolute;
+}
+
+.redesign-backcompat .form-sign-up {
+	background: #fff;
+	box-shadow: 0px 10px 45px rgba(17, 49, 101, 0.1);
+	border-radius: 5px;
+	width: 586px;
+	padding: 59px 35px 69px;
+	flex: 0 0 586px;
+}
+
+.redesign-backcompat .form-sign-up .gfield--width-half {
+    width: 246px;
+    margin-bottom: 25px;
+}
+
+.redesign-backcompat .form-sign-up .gfield_select option {
+    padding: 5px 15px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: 5px;
+}
+
+.redesign-backcompat .form-sign-up .gfield_label {
+    display: none;
+}
+
+.redesign-backcompat .form-sign-up .gform_fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .form-sign-up .gfield_select,
+.redesign-backcompat .form-sign-up .gfield--width-half input {
+    background: #fff;
+    border: 1px solid rgba(209, 209, 209, 0.75);
+    font-weight: 400;
+    font-size: 14px;
+    height: 48px;
+    line-height: 26px;
+    width: 100%;
+    padding: 5px 19px;
+    color: #444D51;
+}
+
+.redesign-backcompat .form-sign-up .gfield_select:focus-visible,
+.redesign-backcompat .form-sign-up .gfield--width-half input:focus-visible {
+    border-color: #224f99;
+    outline: none;
+}
+
+.redesign-backcompat .form-sign-up .gfield_select {
+    color: #999ea0;
+}
+
+.redesign-backcompat .form-sign-up_wrapper .gform_footer  {
+    text-align: center;
+    margin-top: 21px;
+}
+
+.redesign-backcompat .form-sign-up_wrapper .gf_submit {
+    background: linear-gradient(221.26deg, #FFA500 -3.4%, #FF8C00 90.74%), #201F1F;
+    border-radius: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    border: none;
+    padding: 13px 10px;
+    min-width: 260px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.redesign-backcompat .form-sign-up_wrapper .gf_submit:hover {
+    background: #457fba;
+}
+
+.redesign-backcompat .container.testimonials-slider-section {
+    margin-top: 129px;
+}
+
+.redesign-backcompat .testimonials-slider-wrapper {
+	position: relative;
+	padding: 82px 86px 75px;
+	background: #F4F5F7;
+}
+
+.redesign-backcompat .testimonials-slider-wrapper h2 {
+    font-size: 44px;
+    margin-bottom: 42px;
+}
+
+.redesign-backcompat .testimonials-slider-quote {
+	position: absolute;
+	right: 39px;
+	top: 67px;
+}
+
+.redesign-backcompat .testimonials-slider-item {
+    width: 540px;
+}
+
+.redesign-backcompat .testimonials-slider-top {
+	border-radius: 10px;
+	background: #fff;
+	padding: 57px 34px 62px 49px;
+	font-weight: 600;
+	position: relative;
+	font-size: 26px;
+	line-height: 34px;
+	color: #444D51;
+}
+
+.redesign-backcompat .testimonials-slider-top:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	margin-left: -10px;
+	margin-bottom: -10px;
+}
+
+.redesign-backcompat .testimonials-slider-top strong {
+    font-weight: 600;
+    color: #224F99;
+}
+
+.redesign-backcompat .testimonials-slider-item cite figure {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 100px;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.redesign-backcompat .testimonials-slider-item cite figure img {
+    width: 100%;
+    height: auto;
+}
+
+.redesign-backcompat .testimonials-slider-item cite {
+	font-size: 20px;
+	justify-content: center;
+	line-height: 30px;
+	color: #444D51;
+    font-style: normal;
+	padding-top: 30px;
+}
+
+.redesign-backcompat .testimonials-slider-item cite .ts-name {
+    font-weight: 600;
+}
+
+.redesign-backcompat .testimonials-slider-wrapper .owl-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.redesign-backcompat .testimonials-slider-wrapper .owl-carousel button.owl-dot {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 4px;
+    border-radius: 10px;
+    background: #224F99;
+    opacity: 0.5;
+}
+
+.redesign-backcompat .testimonials-slider-wrapper .owl-carousel .owl-dot.active {
+    opacity: 1;
+}
+
+.redesign-backcompat .container.business-grow-section {
+	padding-top: 131px;
+}
+
+.business-grow-section h2 {
+	font-size: 44px;
+	margin-bottom: 103px;
+}
+
+.redesign-backcompat .business-grow {
+	padding: 76px 83px 91px;
+	position: relative;
+	height: 100%;
+	background: #fff;
+	border: 4px solid #F4F5F7;
+	border-radius: 5px;
+}
+
+.redesign-backcompat .business-grow-top {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 54px;
+    text-align: center;
+    color: #224F99;
+}
+
+.redesign-backcompat .business-grow-top strong {
+	font-weight: 600;
+	display: block;
+	font-size: 34px;
+	padding-top: 8px;
+}
+
+.redesign-backcompat .business-grow-body {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 34px;
+	color: #2B2B2B;
+	padding-top: 20px;
+}
+
+.redesign-backcompat .business-grow-note {
+	position: absolute;
+	bottom: 39px;
+	left: 83px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 34px;
+	color: #444D51;
+	opacity: 0.75;
+}
+
+.redesign-backcompat .business-grow-section .wp-block-columns {
+    justify-content: space-between;
+}
+
+.redesign-backcompat .effortless-wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .effortless-wrapper figure {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+.redesign-backcompat .share-more-section .form-sign-up {
+    width: 100%;
+    flex: 0 0 100%;
+    box-shadow: none;
+    padding: 0;
+}
+
+.redesign-backcompat .share-more-section .form-sign-up_wrapper {
+    justify-content: center;
+    padding: 0;
+}
+
+.redesign-backcompat .share-more-section {
+	width: 1070px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	box-shadow: 10px 20px 54.6003px rgba(17, 49, 101, 0.15);
+	border-radius: 8px;
+	padding: 59px 0;
+}
+
+.redesign-backcompat .container.effortless-section {
+    padding-bottom: 159px;
+}
+
+.redesign-backcompat .share-more-section h2 {
+	font-size: 44px;
+	margin-bottom: 48px;
+}
+
+.redesign-backcompat .share-more-section .form-sign-up_wrapper {
+    padding: 0 130px;
+}
+
+.redesign-backcompat .share-more-section .form-sign-up .gfield--width-half {
+    width: 380px;
+}
+
+.redesign-backcompat .share-more-section-wrapper {
+    position: relative;
+}
+
+.redesign-backcompat .share-more-section-wrapper .wp-block-group__inner-container {
+    position: relative;
+    z-index: 3;
+}
+
+.redesign-backcompat .share-more-section-wrapper::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 42%;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    background: #224F99;
+}
+
+
+/****Sign Up*****/
+
+.redesign-backcompat #fp-ccpages_signup {
+    padding-top: 30px;
+}
+
+/****Shoppers*****/
+
+.redesign-backcompat .hero_little_block {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2B2B2B;
+    background: #F4F5F7;
+    box-shadow: -35px 10px 73.2692px rgba(23, 18, 43, 0.35);
+    border-radius: 8px;
+    padding: 22px 30px 14px;
+    position: absolute;
+    width: 310px;
+    left: -103px;
+    top: 32%;
+}
+
+.redesign-backcompat .hero_little_block strong {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    display: block;
+    color: #224F99;
+}
+
+.redesign-backcompat .shoppers_hero .hero-images {
+    margin-left: 64px;
+}
+
+.redesign-backcompat .shoppers_hero .hero_descr {
+    padding-right: 160px;
+}
+
+.redesign-backcompat .shoppers_hero.hero {
+    padding: 119px 0 35px;
+}
+
+.redesign-backcompat .banner1-section {
+    background: #F4F5F7;
+    text-align: center;
+    padding: 111px 15px;
+}
+
+.redesign-backcompat .banner1-section h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 27px;
+    line-height: 55px;
+    color: #2B2B2B;
+}
+
+.redesign-backcompat .banner1-section p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.redesign-backcompat .buying_1 {
+    position: relative;
+    text-align: center;
+    padding: 216px 0 31px;
+    margin-top: 16px;
+}
+
+.redesign-backcompat .bfig {
+    position: absolute;
+    z-index: 6;
+}
+
+.redesign-backcompat .b_1 {
+    top: 32px;
+    left: 12px;
+}
+
+.redesign-backcompat .b_3 {
+    right: 0;
+    top: 32px;
+}
+
+.redesign-backcompat .b_2  {
+    top: -64px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    max-width: 210px;
+}
+
+.redesign-backcompat .ellipls {
+    top: 0;
+    max-width: 420px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.redesign-backcompat .buying-section h2 {
+    font-size: 50px;
+    line-height: 65px;
+    color: #224F99;
+    margin-bottom: 204px;
+}
+
+.redesign-backcompat .buying-section {
+    padding: 111px 15px 0;
+}
+
+.redesign-backcompat .buying_totall {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 45px;
+    color: #224F99;
+}
+
+.redesign-backcompat .dn {
+    display: none !important;
+}
+
+.redesign-backcompat .shadow {
+    background: #FFFFFF;
+    box-shadow: 10px 20px 54.6003px rgba(17, 49, 101, 0.15);
+    border-radius: 8px;
+}
+
+.redesign-backcompat .buying_apply {
+    padding: 27px 20px 25px;
+    font-weight: bold;
+    height: 134px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    position: relative;
+    z-index: 6;
+    width: 533px;
+    margin: auto;
+    color: #444D51;
+}
+
+.redesign-backcompat .buying_apply p {
+    margin-bottom: 10px;
+}
+
+.redesign-backcompat .buying_put {
+    position: relative;
+    display: inline-flex;
+}
+
+.redesign-backcompat .buying_put figure {
+    position: relative;
+    top: 9px;
+    margin-left: 8px;
+}
+
+.redesign-backcompat .buying_descr {
+    padding-left: 72px;
+}
+
+.redesign-backcompat .buying_descr h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    color: #444D51;
+    margin: 0 0 30px;
+}
+
+.redesign-backcompat .buying_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 42px;
+}
+
+.redesign-backcompat .buying_2 {
+    position: relative;
+    padding: 200px 0;
+}
+
+.redesign-backcompat .b_4 {
+    left: 49px;
+    top: 77px;
+}
+
+.redesign-backcompat .b_5 {
+    right: 11px;
+    bottom: 10px;
+}
+
+.redesign-backcompat .b_6 {
+    left: 174px;
+    top: -69px;
+}
+
+.redesign-backcompat .buying_2 .ellipls {
+    left: 32px;
+}
+
+.redesign-backcompat .buying_reverse.buying_descr {
+    padding-left: 107px;
+}
+
+.redesign-backcompat .buying_reverse .arr {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    text-align: right;
+}
+
+.redesign-backcompat .arr.arr_reverse {
+    -moz-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    text-align: left;
+}
+
+.redesign-backcompat .arr img {
+    display: inline-block;
+}
+
+.redesign-backcompat .bfig_border {
+    border-radius: 8px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    box-shadow: 0px 10px 80px rgba(34, 79, 153, 0.15);
+}
+
+.redesign-backcompat .p1 {
+    padding-top: 7rem;
+}
+
+.redesign-backcompat .p2 {
+    padding-top: 6rem;
+}
+
+.redesign-backcompat .p3 {
+    padding-top: 5rem;
+}
+
+.redesign-backcompat .b_7 {
+    display: inline-block;
+}
+
+.redesign-backcompat .buying_3 .buying_apply {
+    margin-top: -96px;
+    color: #224F99;
+}
+
+.redesign-backcompat .buying_3 .buying_put figure {
+    top: 7px;
+    margin: 0 7px;
+}
+
+.redesign-backcompat .btn-box {
+    padding-top: 50px;
+}
+
+.redesign-backcompat .btn-box .btn2 {
+    min-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 15px;
+}
+
+.redesign-backcompat .p3 .advantage_item::before {
+    left: -14px;
+}
+
+
+/****Table*****/
+
+.redesign-backcompat .table1 {
+    width: 100%;
+}
+
+.redesign-backcompat .table1 td,
+.redesign-backcompat .table1 {
+    border: 1px solid #224f99;
+    padding: 10px;
+}
+
+.redesign-backcompat .table1 thead th {
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #224f99;
+}
+
+.redesign-backcompat .td_bg1 {
+    color: #fff;
+    font-weight: bold;
+    background: #224f99;
+}
+
+.redesign-backcompat .td_bg2 {
+    background: #009cde;
+    color: #fff;
+}
+
+.redesign-backcompat .list1 {
+    padding: 20px 0 !important;
+}
+
+.redesign-backcompat .list1 li {
+    position: relative;
+}
+
+.redesign-backcompat .list1 li::after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    background: #009cde;
+    top: 12px;
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    display: block !important;
+}
+
+/****Footer*****/
+
+.redesign-backcompat .main-footer,
+.redesign-backcompat.main-footer{
+    background: #224f99;
+    padding: 117px 0 100px;
+}
+
+.redesign-backcompat .copyright {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    padding: 7px 0 41px;
+}
+
+.redesign-backcompat .copyright strong {
+    display: block;
+    padding-top: 8px;
+    font-weight: normal;
+}
+
+.redesign-backcompat .phone_footer {
+    position: relative;
+    display: inline-block;
+    transition: .5s ease-in-out;
+    padding-left: 22px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMjMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0uNyAzLjVBMi44IDIuOCAwIDAgMSAzLjUuN2g3YTIuOCAyLjggMCAwIDEgMi44IDIuOHYxNS40YTIuOCAyLjggMCAwIDEtMi44IDIuOGgtN2EyLjggMi44IDAgMCAxLTIuOC0yLjhWMy41Wk0uNyAxNy41aDEyLjYiLz48L2c+PGRlZnM+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDE0djIyLjRIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=");
+    background-repeat: no-repeat;
+}
+
+.redesign-backcompat .phone_wrap {
+    margin-bottom: 27px;
+}
+
+.redesign-backcompat .menu-social-menu-container .menu {
+    padding: 0;
+    margin: 0;
+}
+
+.redesign-backcompat .menu-social-menu-container .menu li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.redesign-backcompat .menu-social-menu-container .menu li a {
+    font-size: 0;
+}
+
+.redesign-backcompat .menu-social-menu-container .menu li.fa a::before {
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    line-height: 16px;
+    width: 32px;
+    height: 32px;
+    transition: .5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    color: #fff;
+    background: #5174af;
+}
+
+.redesign-backcompat .menu-social-menu-container .menu li.fa a:hover::before {
+    background: #ffa500;
+}
+
+.redesign-backcompat .menu-social-menu-container .menu li.linkedin a::before {
+    content: '\f0e1';
+}
+
+.redesign-backcompat .menu-social-menu-container .menu li.facebook a::before {
+    content: '\f09a';
+}
+
+.redesign-backcompat .menu-social-menu-container .menu li.twitter a::before {
+    content: '\f099';
+}
+
+.redesign-backcompat .main-footer h3,
+.redesign-backcompat.main-footer h3 {
+    color: #fff;
+    padding: 0;
+}
+
+.redesign-backcompat .footer_menu .menu {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.redesign-backcompat .footer_menu .menu li {
+    margin-bottom: 6px;
+    list-style-type: none;
+}
+
+.redesign-backcompat #fp_createContentPages .wp-block-cover__inner-container .row {
+    margin-bottom: 0;
+}
+
+.redesign-backcompat .footer_menu .menu li a {
+    transition: .3s ease-in-out;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.redesign-backcompat .footer_menu .menu li.current-menu-item a,
+.redesign-backcompat .footer_menu .menu li a:hover {
+    color: #ff9000 !important;
+}
+
+.redesign-backcompat #fp_createContentPages {
+    width: 100%;
+}
+
+.redesign-backcompat .pt50 {
+    padding-top: 50px;
+}
+
+.redesign-backcompat .selected-tab-blue {
+    background: none;
+    height: auto;
+    border-radius: 0;
+}
+
+/*220314-Styling for Video Button in Redesign page*/
+.redesign-backcompat .hero-btns div.btn2.btn_play_video .button.wistia_embed img {
+    display: inline;
+    margin-left: 5px;
+    margin-bottom: -5px;
+}
+
+.redesign-backcompat .hero-btns div.btn2.btn_play_video{
+    display: inline-flex;
+    align-items: center;
+    background: #457fba;
+}
+
+.redesign-backcompat .hero-btns .btn2.btn_play_video:hover {
+    background: #FFA500;
+}
+
+/***NEWSROOM***/
+
+.redesign-backcompat .newsroom-top {
+	padding-top: 52px;
+}
+
+.redesign-backcompat .newsroom-descr {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 36px;
+	color: #FFFFFF;
+}
+
+.redesign-backcompat .newsroom-top h1 {
+	font-size: 47px;
+	line-height: 65px;
+	margin: 0 0 5px;
+}
+
+.redesign-backcompat .news_section {
+    padding-top: 140px;
+}
+
+.redesign-backcompat .news-item {
+	padding: 51px 35px 0 0;
+	flex: 0 0 25%;
+	width: 25%;
+}
+
+.redesign-backcompat .news-item figure {
+	min-height: 210px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 36px;
+	max-height: 210px;
+	overflow: hidden;
+}
+
+.redesign-backcompat .news-date {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444D51;
+    margin-bottom: 17px;
+}
+
+.redesign-backcompat .news-title {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 32px;
+	margin-bottom: 37px;
+	color: #444D51;
+	min-height: 96px;
+}
+
+.redesign-backcompat .news-link {
+    font-size: 18px;
+    line-height: 26px;
+    color: #FF8C00;
+    transition: .3s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+}
+
+.redesign-backcompat .news-link:hover {
+    color: #224F99;
+}
+
+.redesign-backcompat .news-link:hover img {
+    margin-left: 8px;
+}
+
+.redesign-backcompat .news-link img {
+    margin-left: 5px;
+    transition: .3s ease-in-out;
+}
+
+.redesign-backcompat .more_news {
+    padding-top: 34px;
+}
+
+.redesign-backcompat .btn_more {
+    display: inline-block;
+    text-align: center;
+    border: 1.5px solid #224F99;
+    border-radius: 40px;
+    min-width: 280px;
+    padding: 15px 10px;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    background: #fff;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #224F99;
+}
+
+.redesign-backcompat .btn_more:hover {
+    color: #fff;
+    background: #ff8c00;
+    border-color: #ff8c00;
+}
+
+.redesign-backcompat .press_section {
+    padding-top: 69px;
+}
+
+.redesign-backcompat .press_section .news-item {
+    padding: 0;
+    box-shadow: 10px 20px 54.6003px rgba(17, 49, 101, 0.1);
+    border-radius: 0 0 8px 8px;   
+	background: #fff; 
+    flex: 0 0 30%;
+    width: 30%;
+}
+
+.redesign-backcompat .press_section .news-item-inner {
+	padding: 19px 30px 38px;
+}
+
+.redesign-backcompat .press_section .news-title {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 14px;
+}
+
+.redesign-backcompat .press_section .news-item figure  {
+    margin: 0;
+}
+
+.redesign-backcompat .press_section figure img {
+    width: 100%;
+}
+
+.redesign-backcompat .press_section h2 {
+    margin-bottom: 85px;
+}
+
+.redesign-backcompat .more_press {
+    padding: 40px 0 167px;
+}
+
+.redesign-backcompat .contact-top-wrapper h3 {
+    font-size: 28px;
+    line-height: 36px;
+    color: #224F99;
+}
+
+.redesign-backcompat .contact_top_descr {
+    font-size: 20px;
+    line-height: 26px;
+    color: #2B2B2B;
+    margin-bottom: 10px;
+}
+
+.redesign-backcompat .adress-box li {
+	font-weight: normal;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+.redesign-backcompat .adress-box li a {
+    color: #444D51;
+    transition: .3s ease-in-out;
+}
+
+.redesign-backcompat .adress-box li a:hover {
+    color: #FF8C00;
+    text-decoration: none;
+}
+
+.redesign-backcompat .newsletter-wrapper {
+	width: 478px;
+	padding: 2px 0 0 51px;
+}
+
+.redesign-backcompat .newsletter-wrapper input[type="email"] {
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    height: 66px;
+    line-height: 26px;
+    color: #444D51;
+    border-bottom: 2px solid #224F99;
+}
+
+.redesign-backcompat .tar {
+    text-align: right;
+}
+
+.redesign-backcompat .newsletter-wrapper .btn2 {
+    min-width: 240px;
+    font-size: 16px;
+}
+
+.redesign-backcompat .contact-top-right {
+    display: flex;
+}
+
+.redesign-backcompat .newsletter-submit {
+    padding-top: 43px;
+}
+
+.redesign-backcompat .contact-wrapper {
+    padding: 89px 0 50px;
+}
+
+.redesign-backcompat .news-wrapper {
+    padding-top: 84px;
+}
+
+.redesign-backcompat .header-top {
+    background-size: cover;
+}
+
+.redesign-backcompat .news-top {
+	background: #F4F5F7;
+	padding: 30px 0;
+}
+
+.redesign-backcompat .news-tabs {
+    display: flex;
+}
+
+.redesign-backcompat .news-tabs li {
+    margin-right: 139px;
+}
+
+.redesign-backcompat .news-tabs li a {
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    line-height: 30px;
+    color: #2B2B2B;
+}
+
+.redesign-backcompat .news-tabs li a:focus-visible {
+    outline: none !important;
+}
+
+.redesign-backcompat .news-tabs li a::before {
+    content: '';
+    position: absolute;
+    transition: .3s ease-in-out;
+    left: 0;
+    bottom: -12px;
+    width: 0;
+    height: 3px;
+    background: #224f99;
+    display: block;
+}
+
+.redesign-backcompat .news-tabs a.active,
+.redesign-backcompat .news-tabs a:hover {
+    color: #224F99;
+}
+
+.redesign-backcompat .news-tabs a.active:before,
+.redesign-backcompat .news-tabs a:hover::before {
+    width: 100%;
+}
+
+.redesign-backcompat .news-items {
+    padding-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .new-item {
+	flex: 0 0 43%;
+	width: 43%;
+	margin-bottom: 52px;
+}
+
+.redesign-backcompat .new-item h3 {
+    margin-bottom: 17px;
+}
+
+.redesign-backcompat .news-description {
+    margin-bottom: 26px;
+}
+
+.redesign-backcompat .more {
+    display: inline-flex;
+    align-items: center;
+}
+
+.redesign-backcompat .more img {
+    margin-left: 5px;
+}
+
+.redesign-backcompat .page-number {
+	transition: all 300ms ease;
+	background: #FFFFFF;
+	border: 1px solid #DFE3E8;
+	border-radius: 4px;
+	width: 40px;
+	height: 40px;
+	display: inline-flex;
+    margin: 0 5px;
+	align-items: center;
+	line-height: 20px;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 16px;
+	color: #212B36;
+}
+
+.redesign-backcompat .page-number.prev,
+.redesign-backcompat .page-number.next {
+    border: none;
+    width: auto;
+    padding: 0 10px;
+}
+
+.redesign-backcompat .page-number.prev:hover,
+.redesign-backcompat .page-number.next:hover {
+    color: #ffa500;
+}
+
+.redesign-backcompat .tab-pagination .current a, 
+.redesign-backcompat .tab-pagination a:hover {
+	border-color: #224f99;
+	color: #224f99;
+}
+
+.redesign-backcompat .tab-pagination {
+    padding: 50px 0;
+    border-top: 1px solid #F4F5F7;
+}
+
+.redesign-backcompat .page-numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.redesign-backcompat .news-body {
+    position: relative;
+}
+
+.redesign-backcompat .news-body::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	opacity: 0;
+	z-index: -1;
+	left: 0;
+	transition: all 300ms ease;
+	top: 0;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.redesign-backcompat .loading.news-body::after {
+	opacity: 1;
+	z-index: 9;
+}
+
+.redesign-backcompat .lds-dual-ring {
+	display: none;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 0;
+	top: 20%;
+	right: 0;
+	margin: auto;
+	z-index: 99;
+}
+
+.redesign-backcompat .lds-dual-ring:after {
+	content: " ";
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin: 8px;
+	border-radius: 50%;
+	border: 6px solid #fff;
+	border-color: #fff transparent #fff transparent;
+	animation: lds-dual-ring 1.2s linear infinite;
+}
+  @keyframes lds-dual-ring {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+}
+
+.redesign-backcompat .loading .lds-dual-ring {
+	display: block;
+}
+
+.redesign-backcompat .container_column {
+    gap: 0 !important;
+}
+
+.redesign-backcompat .container_column .wp-block-column {
+    padding-right: 3em;
+}
+
+.redesign-backcompat .resourses-wrapper {
+    padding-bottom: 120px;
+}
+
+.redesign-backcompat .contact-top-wrapper {
+	padding-top: 40px;
+	border-top: 1px solid #F4F5F7;
+	margin-right: 70px;
+}
+ 
+.redesign-backcompat .tabcontent {
+    display: none;
+}
+
+.redesign-backcompat.single-press_release .header-top,
+.redesign-backcompat.single-news .header-top {
+    background: url('../../images/header_bg.png') center no-repeat;
+    background-size: cover;
+}
+
+.redesign-backcompat .news-container {
+    padding: 97px 236px 123px 15px;
+}
+
+.redesign-backcompat .news-wrapper h1 {
+    font-weight: 600;
+    font-size: 52px;
+    color: #224F99;
+    line-height: 65px;
+    margin-top: 0;
+}
+
+.redesign-backcompat .single-news-date {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 56px;
+    margin-bottom: 40px;
+}
+
+.redesign-backcompat .share-news .ssbp-wrap>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redesign-backcompat .share-news .ssbp-wrap .ssbp-list li {
+    margin-top: 0;
+}
+
+.redesign-backcompat .share-news {
+    margin-bottom: 77px;
+}
+
+.redesign-backcompat .news-wrapper .entry-content h6 {
+    font-size: 20px;
+    line-height: 32px;
+    color: #444D51;
+    margin: 0 0 30px;
+}
+
+.redesign-backcompat .news-wrapper .entry-content {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.redesign-backcompat .news-wrapper .entry-content p {
+	margin: 0 0 25px;
+}
+
+.redesign-backcompat .list2, 
+.redesign-backcompat .news-wrapper .entry-content ul {
+	margin: 0 0 0 26px;
+	padding: 5px 0 0;
+	list-style-type: none;
+}
+
+.redesign-backcompat .list2 li,
+.redesign-backcompat .news-wrapper .entry-content ul li {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 22px;
+}
+
+.redesign-backcompat .list2 li::before,
+.redesign-backcompat .news-wrapper .entry-content ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    display: block;
+    background: #444D51;
+}
+
+.redesign-backcompat h4.resent-press-title {
+	font-size: 28px;
+	line-height: 36px;
+	margin: 15px 0 22px;
+	padding-right: 30px;
+}
+
+.redesign-backcompat .resent-press-item a.more {
+    font-size: 18px;
+    line-height: 26px;
+    color: #FF8C00;
+}
+
+.redesign-backcompat .resent-press-item a.more:hover {
+    color: #224f99;
+}
+
+.redesign-backcompat .resent-press-item {
+    margin-bottom: 86px;
+}
+
+.cust-quote-logo img{
+    height:75px;
+    width: auto !important;
+}
+
+.cust-quote-sign:before{
+    background-image: url("//futurepay.com/wp-content/themes/futurepay/images/quote-blue.png");
+    background-size: 18px 16px;
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    content:"";
+    position: relative;
+    left: -1.5rem;
+    top: 1.5rem;
+}
+
+.cust-quote-sign p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.cust-quote-sign cite{
+    font-style: normal;
+    font-size: 0.8rem;
+}
+
+.justify-content-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+
+/* Adds Bootstrap v4.6 margin and padding utilities*/
+.m-0 {
+    margin: 0 !important;
+}
+
+.mt-0,
+.my-0 {
+    margin-top: 0 !important;
+}
+
+.mr-0,
+.mx-0 {
+    margin-right: 0 !important;
+}
+
+.mb-0,
+.my-0 {
+    margin-bottom: 0 !important;
+}
+
+.ml-0,
+.mx-0 {
+    margin-left: 0 !important;
+}
+
+.m-1 {
+    margin: 0.25rem !important;
+}
+
+.mt-1,
+.my-1 {
+    margin-top: 0.25rem !important;
+}
+
+.mr-1,
+.mx-1 {
+    margin-right: 0.25rem !important;
+}
+
+.mb-1,
+.my-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.ml-1,
+.mx-1 {
+    margin-left: 0.25rem !important;
+}
+
+.m-2 {
+    margin: 0.5rem !important;
+}
+
+.mt-2,
+.my-2 {
+    margin-top: 0.5rem !important;
+}
+
+.mr-2,
+.mx-2 {
+    margin-right: 0.5rem !important;
+}
+
+.mb-2,
+.my-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.ml-2,
+.mx-2 {
+    margin-left: 0.5rem !important;
+}
+
+.m-3 {
+    margin: 1rem !important;
+}
+
+.mt-3,
+.my-3 {
+    margin-top: 1rem !important;
+}
+
+.mr-3,
+.mx-3 {
+    margin-right: 1rem !important;
+}
+
+.mb-3,
+.my-3 {
+    margin-bottom: 1rem !important;
+}
+
+.ml-3,
+.mx-3 {
+    margin-left: 1rem !important;
+}
+
+.m-4 {
+    margin: 1.5rem !important;
+}
+
+.mt-4,
+.my-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mr-4,
+.mx-4 {
+    margin-right: 1.5rem !important;
+}
+
+.mb-4,
+.my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.ml-4,
+.mx-4 {
+    margin-left: 1.5rem !important;
+}
+
+.m-5 {
+    margin: 3rem !important;
+}
+
+.mt-5,
+.my-5 {
+    margin-top: 3rem !important;
+}
+
+.mr-5,
+.mx-5 {
+    margin-right: 3rem !important;
+}
+
+.mb-5,
+.my-5 {
+    margin-bottom: 3rem !important;
+}
+
+.ml-5,
+.mx-5 {
+    margin-left: 3rem !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.pt-0,
+.py-0 {
+    padding-top: 0 !important;
+}
+
+.pr-0,
+.px-0 {
+    padding-right: 0 !important;
+}
+
+.pb-0,
+.py-0 {
+    padding-bottom: 0 !important;
+}
+
+.pl-0,
+.px-0 {
+    padding-left: 0 !important;
+}
+
+.p-1 {
+    padding: 0.25rem !important;
+}
+
+.pt-1,
+.py-1 {
+    padding-top: 0.25rem !important;
+}
+
+.pr-1,
+.px-1 {
+    padding-right: 0.25rem !important;
+}
+
+.pb-1,
+.py-1 {
+    padding-bottom: 0.25rem !important;
+}
+
+.pl-1,
+.px-1 {
+    padding-left: 0.25rem !important;
+}
+
+.p-2 {
+    padding: 0.5rem !important;
+}
+
+.pt-2,
+.py-2 {
+    padding-top: 0.5rem !important;
+}
+
+.pr-2,
+.px-2 {
+    padding-right: 0.5rem !important;
+}
+
+.pb-2,
+.py-2 {
+    padding-bottom: 0.5rem !important;
+}
+
+.pl-2,
+.px-2 {
+    padding-left: 0.5rem !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.pt-3,
+.py-3 {
+    padding-top: 1rem !important;
+}
+
+.pr-3,
+.px-3 {
+    padding-right: 1rem !important;
+}
+
+.pb-3,
+.py-3 {
+    padding-bottom: 1rem !important;
+}
+
+.pl-3,
+.px-3 {
+    padding-left: 1rem !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.pt-4,
+.py-4 {
+    padding-top: 1.5rem !important;
+}
+
+.pr-4,
+.px-4 {
+    padding-right: 1.5rem !important;
+}
+
+.pb-4,
+.py-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.pl-4,
+.px-4 {
+    padding-left: 1.5rem !important;
+}
+
+.p-5 {
+    padding: 3rem !important;
+}
+
+.pt-5,
+.py-5 {
+    padding-top: 3rem !important;
+}
+
+.pr-5,
+.px-5 {
+    padding-right: 3rem !important;
+}
+
+.pb-5,
+.py-5 {
+    padding-bottom: 3rem !important;
+}
+
+.pl-5,
+.px-5 {
+    padding-left: 3rem !important;
+}
+/* /Adds Bootstrap v4.6 margin and padding utilities */
+
+/*
+    Add FuturePay text colors
+*/
+.text-fp-gray{
+    color:#444D51 !important;
+}
+
+.text-fp-blue{
+    color:#224F99 !important;
+}
+
+.text-fp-orange{
+    color:#ffa500 !important;
+}
+
+.gform_heading,
+.gform_body,
+.gform_footer {
+    clear: both;
+    padding-bottom: 20px;
+}
+ul.gform_fields {
+    list-style: none;
+    margin: 0 -15px;
+    padding: 0;
+}
+.gform_hidden {
+   display: none;
+}
+.gform_validation_container {
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    .redesign-backcompat .attr_wrapper {
+        width: 590px;
+        padding-right: 92px;
+    }
+    .redesign-backcompat .b_4 {
+        left: 30px;
+    }
+    .redesign-backcompat .b_6 {
+        left: 158px;
+    }
+    .redesign-backcompat .form-sign-up {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .redesign-backcompat .form-sign-up .gfield--width-half {
+        width: 48%;
+    }
+    .redesign-backcompat .testimonials-slider-wrapper {
+        padding: 82px 26px 75px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .redesign-backcompat .container {
+        max-width: 960px;
+    }
+    .redesign-backcompat .better-top h1 {
+        font-size: 46px;
+        line-height: 54px;
+    }
+    .redesign-backcompat .news-wrapper h1 {
+        font-size: 46px;
+        line-height: 54px;
+    }
+    .redesign-backcompat .testimonials-slider-wrapper {
+        padding: 75px 40px;
+    }
+    .redesign-backcompat .testimonials-slider-item {
+        width: 420px;
+    }
+    .redesign-backcompat .testimonials-slider-top {
+        padding: 57px 30px 62px;
+    }
+    .redesign-backcompat .business-grow {
+        padding: 56px 50px 91px;
+    }
+    .redesign-backcompat .effortless-wrapper figure {
+        width: 48%;
+    }
+    .redesign-backcompat .container.effortless-section {
+        padding-bottom: 100px;
+    }
+    .redesign-backcompat .share-more-section {
+        width: 96%;
+    }
+    .redesign-backcompat .news-container {
+        padding: 65px 0px 123px 15px;
+    }
+    .redesign-backcompat .contact-top-wrapper {
+        margin-right: 0;
+    }
+    .redesign-backcompat .news-title {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 18px;
+    }
+    .redesign-backcompat .press_section .news-item-inner {
+        padding: 19px 15px 25px;
+    }
+    .redesign-backcompat .press_section .news-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .redesign-backcompat .newsletter-wrapper {
+        width: 390px;
+    }
+    .redesign-backcompat .newsletter-wrapper input[type="email"] {
+        height: 48px;
+    }
+    .redesign-backcompat .newsletter-submit {
+        padding-top: 26px;
+    }
+    .redesign-backcompat .more_press {
+        padding: 40px 15px 76px;
+    }
+    .redesign-backcompat .buying_descr {
+        padding-left: 20px;
+    }
+    .redesign-backcompat .buying_reverse.buying_descr {
+        padding-left: 0;
+    }
+    .redesign-backcompat .b_2,
+    .redesign-backcompat .b_3,
+    .redesign-backcompat .b_1 {
+        width: 170px;
+    }
+    .redesign-backcompat .b_1 {
+        left: 0px;
+    }
+    .redesign-backcompat .b_4 {
+        left: -38px;
+    }
+    .redesign-backcompat .b_5 {
+        right: -15px;
+    }
+    .redesign-backcompat .deliver-section .wp-block-column {
+        flex-basis: 50% !important;
+    }
+    .redesign-backcompat .b_6 {
+        left: 84px;
+        top: -38px;
+        width: 317px;
+    }
+    .redesign-backcompat .deliver-section h2 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+    .redesign-backcompat .deliver-description {
+        padding-right: 0;
+    }
+    .redesign-backcompat .will-learn-item {
+        flex: 230px 0 0;
+        width: 230px;
+        font-size: 16px;
+        line-height: 25px;
+        padding-right: 10px;
+    }
+    .redesign-backcompat .will-learn-item figure {
+        margin-right: 15px;
+    }
+    .redesign-backcompat .will-learn-wrapper {
+        width: 465px;
+    }
+    .redesign-backcompat .hostedby-inner {
+        padding: 11px 15px 0;
+    }
+    .redesign-backcompat .webinar-banner .banner-wrapper {
+        padding: 132px 30px 112px;
+    }
+    .redesign-backcompat .hero-inner h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 0 30px;
+    }
+    .redesign-backcompat .hero-inner {
+        padding: 50px 0 0;
+    }
+    .redesign-backcompat .hero_small {
+        width: 258px;
+    }
+    .redesign-backcompat .hero_small {
+        position: absolute;
+        left: -31px;
+        top: 29px;
+    }
+    .redesign-backcompat .btn2.btn_play {
+        min-width: 235px;
+    }
+    .redesign-backcompat .how_works {
+        padding: 5px 0 0 25px;
+    }
+    .redesign-backcompat .how_grow_item {
+        height: 100%;
+        padding: 25px;
+    }
+    .redesign-backcompat .how_grow_item h3 {
+        font-size: 20px;
+    }
+    .redesign-backcompat .testimonials_section {
+        padding: 116px 0 122px;
+        width: 100%;
+        max-width: none !important;
+    }
+    .redesign-backcompat .testimonial_item {
+        padding: 60px 0 60px 50px;
+    }
+    .redesign-backcompat .testimonial_description {
+        font-size: 22px;
+        line-height: 31px;
+        margin: 38px 0 33px;
+    }
+    .redesign-backcompat .testimonial_item_right {
+        width: 487px;
+        flex: 487px 0 0;
+    }
+    .redesign-backcompat .testimonial_item_right {
+        padding: 33px 24px;
+    }
+    .redesign-backcompat .advantage_item {
+        padding: 46px 0 29px 0;
+    }
+    .redesign-backcompat .advantage_item::before {
+        left: -21px;
+    }
+    .redesign-backcompat .attract_section .wp-block-image img {
+        max-width: none;
+    }
+    .redesign-backcompat .attr_wrapper {
+        width: 465px;
+        padding-right: 0;
+    }
+    .redesign-backcompat .resoursec_inner {
+        padding: 0 0px 0 21px;
+    }
+    .redesign-backcompat .how_works_section .wp-block-column {
+        display: flex;
+        align-items: center;
+    }
+    .redesign-backcompat .how_works_section h2 {
+        margin: 0 0 17px;
+    }
+    .redesign-backcompat .how_works_item {
+        padding: 0 0 23px 89px;
+    }
+    .redesign-backcompat .advantage_item {
+        padding: 35px 15px 29px;
+    }
+}
+
+@media (max-width: 991px) {
+    .redesign-backcompat .p1 {
+        padding-top: 5rem;
+    }
+    .redesign-backcompat .business-grow-section .business-column,
+    .redesign-backcompat .better-top-wrapper .wp-container-3 {
+        flex-direction: column;
+    }
+    .redesign-backcompat .business-grow-section .business-column .wp-block-column {
+        flex-basis: 100% !important;
+    }
+    .redesign-backcompat .business-grow-section h2 {
+        margin-bottom: 60px;
+    }
+    .redesign-backcompat .business-column iframe {
+        width: 100%;
+    }
+    .redesign-backcompat .effortless-wrapper figure {
+        width: auto;
+    }
+    .redesign-backcompat .business-grow {
+        padding: 56px 50px 120px;
+        height: auto;
+    }
+    .redesign-backcompat .better-top-wrapper .wp-block-cover__image-background {
+        height: 70%;
+    }
+    .redesign-backcompat .testimonials-slider-item {
+        width: 100%;
+    }
+    .redesign-backcompat .container.testimonials-slider-section {
+        margin-top: 65px;
+    }
+    .redesign-backcompat .testimonials-slider-wrapper .owl-dots {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: -38px;
+    }
+    .redesign-backcompat .better-top-wrapper .wp-container-3 .col-12 {
+        flex-basis: auto;
+    }
+    .redesign-backcompat .news-wrapper {
+        padding-top: 133px;
+    }
+    .redesign-backcompat .news-item {
+        padding: 51px 25px 0 0;
+        flex: 0 0 50%;
+        width: 50%;
+    }
+    .redesign-backcompat .news-container {
+        padding: 40px 15px 50px;
+    }
+    .redesign-backcompat .press_section .news-item {
+        margin-bottom: 30px;
+    }
+    .redesign-backcompat .newslatter_section .contact-top-right {
+        flex-direction: column;
+    }
+    .redesign-backcompat .newsletter-wrapper {
+        width: 100%;
+        padding: 10px 0 0 0;
+    }
+    .redesign-backcompat .newsletter-wrapper input[type="email"] {
+        height: 48px;
+    }
+    .redesign-backcompat .p2 {
+        padding-top: 4rem;
+    }
+    .redesign-backcompat .p3 {
+        padding-top: 3rem;
+    }
+    .redesign-backcompat .hero_big {
+        width: 420px;
+    }
+    .redesign-backcompat #reponsive_menu_btn {
+        display: block;
+    }
+    .redesign-backcompat #mob-breadcrums {
+        display: flex;
+    }
+    .redesign-backcompat .blue_content {
+        padding-top: 144px;
+    }
+    .redesign-backcompat .signup_menu {
+        margin-right: 40px;
+    }
+    .redesign-backcompat .container {
+        max-width: 720px;
+    }
+    .redesign-backcompat .buying-section h2 {
+        margin-bottom: 68px;
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .redesign-backcompat .p2 {
+        padding-top: 106px;
+    }
+    .redesign-backcompat .buying-section {
+        padding: 80px 15px 0;
+    }
+    .redesign-backcompat .p1.buying-section {
+        padding-top: 140px;
+    }
+    .redesign-backcompat .p1 .buying_text {
+        margin-bottom: 44px;
+    }
+    .redesign-backcompat .buying_descr {
+        padding-left: 0;
+        text-align: center;
+    }
+    .redesign-backcompat .buying_text {
+        margin-bottom: 90px;
+    }
+    .redesign-backcompat .buying_2 .ellipls {
+        left: 0;
+    }
+    .redesign-backcompat .b_5 {
+        right: 42px;
+        bottom: 27px;
+    }
+    .redesign-backcompat .b_4 {
+        left: 36px;
+    }
+    .redesign-backcompat .b_6 {
+        left: 14px;
+        width: 392px;
+        top: -102px;
+        right: 0;
+        margin: auto;
+    }
+    .redesign-backcompat .arr {
+        display: none;
+    }
+    .redesign-backcompat .buying_odd .wp-block-columns {
+        flex-direction: column-reverse;
+    }
+    .redesign-backcompat .buying-section .wp-block-column {
+        margin: 0;
+        width: 100%;
+        flex-basis: 100% !important;
+    }
+    .redesign-backcompat .advantage_section .wp-block-column {
+        flex-basis: 45% !important;
+        flex-grow: 0;
+        margin-left: 2em !important;
+    }
+    .redesign-backcompat .advantage_section .wp-block-column:nth-child(3) .advantage_item:before {
+        display: none;
+    }
+    .redesign-backcompat .advantage_section .wp-block-columns {
+        flex-wrap: wrap;
+        margin-left: -2em !important;
+    }
+    .redesign-backcompat .advantage_item::before {
+        top: 64px;
+    }
+    .redesign-backcompat .deliver-section .wp-block-column {
+        flex-basis: 100% !important;
+        margin: 0;
+    }
+    .redesign-backcompat .hostedby-item {
+        flex: 100% 0 0;
+        width: 100%;
+        padding-bottom: 64px;
+    }
+    .redesign-backcompat .hostedby-inner {
+        flex-direction: column;
+        padding: 35px 15px 0 110px;
+    }
+    .redesign-backcompat .webinar_form {
+        margin: 65px auto 0;
+        width: 530px;
+    }
+    .redesign-backcompat .will-learn-wrapper {
+        width: 100%;
+    }
+    .redesign-backcompat .will-learn-item {
+        flex: 50% 0 0;
+        width: 50%;
+        font-size: 18px;
+        line-height: 28px;
+        padding-right: 8%;
+    }
+    .redesign-backcompat .will-learn-item figure {
+        margin-right: 42px;
+    }
+    .redesign-backcompat .deliver-section h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .redesign-backcompat .deliver-section {
+        padding: 120px 15px 97px;
+    }
+    .redesign-backcompat .hostedby-inner::before {
+        display: none;
+    }
+    .redesign-backcompat .hostedbyimg {
+        margin-right: 58px;
+    }
+    .redesign-backcompat .author {
+        margin-bottom: 10px;
+    }
+    .redesign-backcompat .hero {
+        width: 100%;
+        overflow: hidden;
+        padding: 137px 0 68px;
+    }
+    .redesign-backcompat .hero_small {
+        width: auto;
+        top: 4px;
+        left: -45px;
+    }
+    .redesign-backcompat .menu-wrapper {
+        padding: 50px 0 0 44px;
+    }
+    .redesign-backcompat .menu-main-new-menu-container .menu li.big_hide {
+        display: block;
+    }
+    .redesign-backcompat .menu-main-new-menu-container .menu li a {
+        font-size: 20px;
+        line-height: 40px;
+        padding-left: 23px;
+    }
+    .redesign-backcompat .menu-main-new-menu-container .menu li a::before {
+        top: 16px;
+    }
+    .redesign-backcompat .menu-main-new-menu-container .menu li.current-menu-item a::before,
+    .redesign-backcompat .menu-main-new-menu-container .menu li a:hover::before {
+        width: 10px;
+        height: 10px;
+    }
+    .redesign-backcompat .menu-sign-in-menu-container .menu li.lit_hide {
+        display: none;
+    }
+    .redesign-backcompat .hero-images {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .redesign-backcompat .hero-btns .btn2:first-child {
+        margin-right: 0;
+    }
+    .redesign-backcompat .hero-btns .btn2 {
+        min-width: 257px;
+        margin-bottom: 27px;
+    }
+    .redesign-backcompat .hero-inner {
+        padding-top: 25px;
+        padding-right: 20px;
+    }
+    .redesign-backcompat .hero-inner h1 {
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 21px;
+    }
+    .redesign-backcompat .col-md-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .redesign-backcompat .col-md-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .redesign-backcompat .hero_descr {
+        padding-right: 63px;
+    }
+    .redesign-backcompat .hero-btns {
+        padding-top: 55px;
+    }
+    .redesign-backcompat .how_works_section .wp-block-column {
+        flex-basis: 100% !important;
+    }
+    .redesign-backcompat .wp-block-column {
+        justify-content: center;
+    }
+    .redesign-backcompat .how_works_section {
+        padding: 98px 15px 77px;
+    }
+    .redesign-backcompat .how_works {
+        padding: 91px 0 0 0;
+    }
+    .redesign-backcompat .how_works_descriptions {
+        padding-top: 14px;
+        margin-bottom: 41px;
+    }
+    .redesign-backcompat .how_works_item {
+        padding: 0 0 35px 81px;
+    }
+    .redesign-backcompat .resoursec_inner {
+        padding: 0 0px 0 10px;
+    }
+    .redesign-backcompat .btn_box {
+        padding-top: 6px;
+    }
+    .redesign-backcompat h2 {
+        margin: 0 0 21px;
+    }
+    .redesign-backcompat .how_grow_descr {
+        max-width: 487px;
+        margin: 0 auto 49px;
+    }
+    .redesign-backcompat .how_grow_section .wp-block-columns {
+        justify-content: center;
+    }
+    .redesign-backcompat .how_grow_item {
+        padding: 26px 15px;
+    }
+    .redesign-backcompat .how_grow_item h3 {
+        font-size: 24px;
+    }
+    .redesign-backcompat .how_grow_section .wp-block-column {
+        margin-bottom: 35px;
+    }
+    .redesign-backcompat .testimonials_section {
+        padding: 58px 0 122px;
+    }
+    .redesign-backcompat .testimonial_item {
+        flex-direction: column;
+    }
+    .redesign-backcompat .testimonial_item_left {
+        flex: 100% 0 0;
+        width: 100%;
+        margin-bottom: 43px;
+    }
+    .redesign-backcompat .testimonial_description {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 0 0 33px;
+    }
+    .redesign-backcompat .testimonial_item {
+        padding: 111px 30px 88px;
+    }
+    .redesign-backcompat .testimonial_item_right {
+        align-self: self-end;
+        right: -30px;
+        position: relative;
+        width: 610px;
+        padding: 51px 60px;
+        flex: 610px 0 0;
+        max-height: 352px;
+    }
+    .redesign-backcompat .testimonials_section {
+        padding: 58px 0 91px;
+    }
+    .redesign-backcompat .advantage_item {
+        padding: 35px 20px 29px;
+    }
+
+    .redesign-backcompat .attr_wrapper {
+        width: 351px;
+        margin-top: 113px;
+    }
+    .redesign-backcompat .attract_section .wp-block-columns {
+        margin-bottom: 0;
+    }
+    .redesign-backcompat .efforts_section {
+        padding: 125px 15px 83px;
+    }
+    .redesign-backcompat .resources_section .wp-block-column:not(:only-child) {
+        flex-basis: calc(33.33333% - 1em) !important;
+        flex-grow: 0;
+    }
+    .redesign-backcompat .resoursec_item {
+        padding-top: 40px;
+    }
+    .redesign-backcompat .r_title {
+        line-height: 30px;
+    }
+    .redesign-backcompat .how_grow_section .wp-block-column:nth-child(3n),
+    .redesign-backcompat .how_grow_section .wp-block-column:nth-child(2n) {
+        margin-left: 1em;
+    }
+    .redesign-backcompat .homeform {
+        width: 700px;
+        padding: 60px 0 57px;
+    }
+    .redesign-backcompat .resources_section {
+        padding-bottom: 71px;
+    }
+    .redesign-backcompat .main-footer .col-lg-3,
+    .redesign-backcompat.main-footer .col-lg-3 {
+        max-width: 50%;
+        flex: 50% 0 0;
+    }
+    .redesign-backcompat .main-footer .footer_menu_wrap .col-lg-2,
+    .redesign-backcompat .main-footer .footer_menu_wrap .col-lg-3,
+    .redesign-backcompat.main-footer .footer_menu_wrap .col-lg-2,
+    .redesign-backcompat.main-footer .footer_menu_wrap .col-lg-3 {
+        max-width: 100%;
+        flex: 100% 0 0;
+    }
+    .redesign-backcompat .footer_menu_wrap {
+        flex-direction: column;
+        max-width: 34%;
+        flex: 34% 0 0;
+        height: 100%;
+    }
+    .redesign-backcompat .main-footer .col-lg-3,
+    .redesign-backcompat.main-footer .col-lg-3 {
+        max-width: 35%;
+        flex: 35% 0 0;
+    }
+    .redesign-backcompat .main-footer .footer_menu_wrap .col-lg-3,
+    .redesign-backcompat.main-footer .footer_menu_wrap .col-lg-3 {
+        margin-bottom: 30px;
+    }
+    .redesign-backcompat .form1 {
+        padding-top: 24px;
+    }
+    .redesign-backcompat .form1 .gform_fields {
+        padding: 0 67px;
+    }
+    .redesign-backcompat .form1 .gfield--width-half {
+        width: 265px;
+        flex: 265px 0 0;
+        margin-bottom: 22px;
+    }
+    .redesign-backcompat .form1 .gfield input {
+        height: 41px;
+        padding: 10px 17px;
+    }
+    .redesign-backcompat .form1 .gform_footer {
+        width: 259px;
+        right: 68px;
+        bottom: 21px;
+    }
+    .redesign-backcompat .form1 .gf_submit {
+        padding: 9px 15px;
+    }
+    .redesign-backcompat .main-footer,
+    .redesign-backcompat.main-footer {
+        padding: 89px 0 100px;
+    }
+    .redesign-backcompat .footer_logo_inner {
+        padding-left: 18px;
+    }
+}
+
+@media (max-width: 781px) {
+    .redesign-backcompat .contact-top-wrapper {
+        margin-top: 40px;
+    }
+    .redesign-backcompat .resourses-wrapper h2 {
+        margin: 0;
+    }
+    .redesign-backcompat .resourses-wrapper .wp-block-columns {
+        gap: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .redesign-backcompat .hero .col-md-5  {
+        display: none;
+    }
+    .redesign-backcompat .better-top{
+        margin-top: 33px;
+    }
+    .redesign-backcompat .testimonials-slider-quote {
+        right: 26px;
+        top: 45px;
+        width: 100px;
+    }
+    .redesign-backcompat .container.testimonials-slider-section {
+        margin-top: 10px;
+    }
+    .redesign-backcompat .testimonials-slider-wrapper {
+        padding: 40px 15px 70px;
+    }
+    .redesign-backcompat .business-grow-section h2 {
+        margin-bottom: 40px;
+    }
+    .redesign-backcompat .effortless-wrapper figure {
+        width: 47%;
+    }
+    .redesign-backcompat .container.effortless-section {
+        padding-bottom: 33px;
+    }
+    .redesign-backcompat .share-more-section .form-sign-up_wrapper {
+        padding: 0 50px;
+    }
+    .redesign-backcompat .better-descr {
+        padding-right: 0;
+    }
+    .redesign-backcompat .news-items {
+        padding-top: 0;
+    }
+    .redesign-backcompat .tabcontent .news-items {
+        padding-top: 60px;
+    }
+    .redesign-backcompat .press_section .news-items {
+        flex-direction: column;
+    }
+    .redesign-backcompat .press_section .news-title {
+        min-height: 9px;
+    }
+    .redesign-backcompat .press_section .news-item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .redesign-backcompat .resourses-wrapper {
+        padding-bottom: 65px;
+    }
+    .redesign-backcompat .resent-press-item {
+        margin-bottom: 50px;
+    }
+    .redesign-backcompat .news-wrapper h1 {
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .redesign-backcompat .new-item {
+        flex: 0 0 48%;
+        width: 48%;
+    }
+    .redesign-backcompat .news_section {
+        padding-top: 90px;
+    }
+    .redesign-backcompat .will-learn-item figure {
+        padding-top: 0;
+    }
+    .redesign-backcompat .press_section .news-title {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .redesign-backcompat .adress-box li {
+        font-size: 16px;
+    }
+    .redesign-backcompat .b_2,
+    .redesign-backcompat .b_3,
+    .redesign-backcompat .b_1 {
+        width: 32%;
+    }
+    .redesign-backcompat .buying_apply {
+        width: 100%;
+    }
+    .redesign-backcompat .buying-section {
+        padding: 50px 15px 0;
+    }
+    .redesign-backcompat .banner1-section {
+        padding: 75px 15px;
+    }
+    .redesign-backcompat .banner1-section h2 {
+        font-size: 37px;
+        line-height: 47px;
+    }
+    .redesign-backcompat .container {
+        max-width: 540px;
+    }
+    .redesign-backcompat .b_5 {
+        right: 0;
+    }
+    .redesign-backcompat .b_4 {
+        left: 0;
+    }
+    .redesign-backcompat .b_6 {
+        width: 62%;
+        top: -42px;
+    }
+    .redesign-backcompat .b_4,
+    .redesign-backcompat .b_5 {
+        width: 26%;
+    }
+    .redesign-backcompat .ellipls {
+        max-width: 80%;
+    }
+    .redesign-backcompat .webinar-wrapper h1 {
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .redesign-backcompat .resources_section .wp-block-column:not(:only-child) {
+        margin: 0;
+    }
+    .redesign-backcompat .advantage_section .wp-block-column {
+        flex-basis: 100% !important;
+        flex-grow: 0;
+        margin-left: 0 !important;
+    }
+    .redesign-backcompat .advantage_section .wp-block-columns {
+        flex-wrap: wrap;
+        margin-left: 0 !important;
+    }
+    .redesign-backcompat .effortless_pics {
+        align-items: center;
+    }
+    .redesign-backcompat .deliver-section h2 {
+        font-size: 36px;
+        line-height: 49px;
+    }
+    .redesign-backcompat .will-learn-item {
+        flex: 100% 0 0;
+        width: 100%;
+        padding-right: 0;
+    }
+    .redesign-backcompat .deliver-section {
+        padding: 68px 15px 97px;
+    }
+    .redesign-backcompat .will-learn-item {
+        padding-right: 4%;
+    }
+    .redesign-backcompat .will-learn-item figure {
+        margin-right: 19px;
+    }
+    .redesign-backcompat .webinar_form {
+        width: 100%;
+    }
+    .redesign-backcompat .hostedby-inner {
+        padding: 35px 15px 0 0;
+    }
+    .redesign-backcompat .hostedbyimg {
+        margin-right: 40px;
+    }
+    .redesign-backcompat .banner-description {
+        padding: 0;
+    }
+    .redesign-backcompat .webinar-banner .banner-wrapper {
+        padding: 77px 30px 60px;
+    }
+    .redesign-backcompat .col-12 {
+        max-width: 100%;
+        flex: 100% 0 0;
+    }
+    .redesign-backcompat .testimonial_item {
+        padding: 56px 0 88px;
+    }
+    .redesign-backcompat .testimonial_item_right {
+        align-self: unset;
+        right: 0;
+        width: 100%;
+        padding: 51px 30px;
+        flex: 100% 0 0;
+        max-height: none;
+    }
+    .redesign-backcompat .testimonial_item_left {
+        padding: 0 52px;
+    }
+    .redesign-backcompat .advantage_item::before {
+        display: none;
+    }
+    .redesign-backcompat .advantage_item {
+        padding: 35px 30px 29px;
+    }
+    .redesign-backcompat .attract_section .wp-block-columns {
+        flex-direction: column-reverse;
+    }
+    .redesign-backcompat .attr_wrapper {
+        width: 100%;
+        margin-top: 51px;
+        float: none;
+        padding: 0 15px 55px;
+    }
+    .redesign-backcompat .attract_section .wp-block-column {
+        width: 100%;
+    }
+    .redesign-backcompat .resources_section .wp-block-columns,
+    .redesign-backcompat .effortless_pics {
+        flex-direction: column;
+    }
+    .redesign-backcompat .effortless_wrapper .btn_box {
+        padding-top: 0;
+    }
+    .redesign-backcompat .effortless_pics figure {
+        margin-bottom: 113px;
+    }
+    .redesign-backcompat .efforts_section {
+        padding: 125px 15px 93px;
+    }
+    .redesign-backcompat .resoursec_item img {
+        width: 100%;
+        height: auto;
+    }
+    .redesign-backcompat .homeform {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0 24px 57px;
+    }
+    .redesign-backcompat .form1 .gform_fields {
+        padding: 0;
+    }
+    .redesign-backcompat .form1 .gfield--width-half {
+        width: 47%;
+        flex: 47% 0 0;
+    }
+    .redesign-backcompat .form1 .gform_footer {
+        width: 240px;
+        right: 0;
+        bottom: 23px;
+    }
+    .redesign-backcompat .p1.buying-section {
+        padding-top: 70px;
+    }
+    .redesign-backcompat .main-footer .col-lg-3,
+    .redesign-backcompat .main-footer .col-lg-4,
+    .redesign-backcompat.main-footer .col-lg-3,
+    .redesign-backcompat.main-footer .col-lg-4 {
+        max-width: 50%;
+        flex: 50% 0 0;
+    }
+    .redesign-backcompat .main-footer .footer_menu_wrap .col-lg-2,
+    .redesign-backcompat .main-footer .footer_menu_wrap .col-lg-3,
+    .redesign-backcompat.main-footer .footer_menu_wrap .col-lg-2,
+    .redesign-backcompat.main-footer .footer_menu_wrap .col-lg-3 {
+        max-width: 50%;
+        flex: 50% 0 0;
+    }
+
+    .redesign-backcompat .footer_menu_wrap {
+        max-width: 100%;
+        flex: 100% 0 0;
+        padding: 30px 0 0 !important;
+        flex-direction: row;
+        margin: 0;
+    }
+    .redesign-backcompat .footer_logo_inner {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 599px) {
+    .redesign-backcompat .press_section h2 {
+        margin-bottom: 50px;
+    }
+    .redesign-backcompat .news-item figure {
+        min-height: 20px;
+        align-items: center;
+        max-height: none;
+    }
+    .redesign-backcompat .more_press {
+        padding: 11px 15px 65px;
+    }
+    .redesign-backcompat .news-item figure {
+        margin-bottom: 20px;
+    }
+    .redesign-backcompat .news-item {
+        padding: 51px 0 34px 0;
+        position: relative;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .redesign-backcompat .news_section .news-item:before {
+        width: 200px;
+        content: '';
+        height: 1px;
+        background: #d9d9d9;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .redesign-backcompat .press_section .news-item {
+        margin-bottom: 45px;
+    }
+    .redesign-backcompat .contact-wrapper {
+        padding: 60px 0;
+    }
+    .redesign-backcompat .contact-top-right {
+        padding-top: 40px;
+    }
+    .redesign-backcompat .newsletter-submit {
+        padding-top: 26px;
+    }
+}
+
+@media (max-width: 540px) {
+    .redesign-backcompat .p1 {
+        padding-top: 4rem;
+    }
+    .redesign-backcompat .resent-press h2 {
+        line-height: 40px;
+    }
+    .redesign-backcompat .news-wrapper h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .redesign-backcompat .news-wrapper {
+        padding-top: 112px;
+    }
+    .redesign-backcompat h4.resent-press-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .redesign-backcompat .new-item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .redesign-backcompat .news-tabs li {
+        margin-right: 50px;
+    }
+    .redesign-backcompat .newsroom-section {
+        min-height: 380px !important;
+    }
+    .redesign-backcompat .contact-top-wrapper {
+        margin: 0;
+    }
+    .redesign-backcompat .p2 {
+        padding-top: 3rem;
+    }
+    .redesign-backcompat .p3 {
+        padding-top: 2rem;
+    }
+    .redesign-backcompat .menu-main-new-menu-container .menu li.small_tel {
+        display: block;
+    }
+    .redesign-backcompat .buying_apply {
+        padding: 27px 15px 25px;
+        font-size: 21px;
+    }
+    .redesign-backcompat .buying_put figure {
+        top: 5px;
+    }
+    .redesign-backcompat .signup_menu {
+        display: none;
+    }
+    .redesign-backcompat .buying_1 {
+        padding: 180px 0 31px;
+    }
+    .redesign-backcompat .menu-wrapper {
+        width: 90%;
+        top: 64px;
+    }
+    .redesign-backcompat .webinar_form {
+        padding: 50px 15px;
+        margin: 0;
+    }
+    .redesign-backcompat .hostedby-user {
+        width: 116px;
+        height: 116px;
+    }
+    .redesign-backcompat .hostedbyimg {
+        margin-right: 24px;
+    }
+    .redesign-backcompat .hostedby-inner {
+        padding: 35px 0 0 0;
+    }
+    .redesign-backcompat .webinar-banner .banner-wrapper {
+        padding: 77px 15px 60px;
+    }
+    .redesign-backcompat .banner-btns .btn2,
+    .redesign-backcompat .webinar_form .gf_submit {
+        width: 100%;
+    }
+    .redesign-backcompat .webinar_form .gfield input {
+        height: 45px;
+        line-height: 45px;
+    }
+    .redesign-backcompat .webinar_form .gfield {
+        margin-bottom: 30px;
+    }
+    .redesign-backcompat .webinar_form .gfield input,
+    .redesign-backcompat .form1 .gfield input {
+        padding: 10px 15px;
+    }
+    .redesign-backcompat .header-inner {
+        height: 64px;
+    }
+    .redesign-backcompat .hero {
+        padding: 95px 0 68px;
+    }
+    .redesign-backcompat .hero_descr {
+        padding-right: 0;
+    }
+    .redesign-backcompat .hero-btns {
+        padding-top: 33px;
+    }
+    .redesign-backcompat .hero-btns .btn2 {
+        min-width: 100%;
+    }
+    .redesign-backcompat .hero {
+        padding: 95px 0 41px;
+    }
+    .redesign-backcompat .how_works_section {
+        padding: 49px 15px 68px;
+    }
+    .redesign-backcompat h2 {
+        font-size: 35px;
+        line-height: 1.5;
+    }
+    .redesign-backcompat .how_works {
+        padding: 60px 0 0 0;
+    }
+    .redesign-backcompat .how_works_descriptions {
+        padding-top: 11px;
+        margin-bottom: 88px;
+        text-align: center;
+    }
+    .redesign-backcompat .number {
+        height: 60px;
+        width: 60px;
+    }
+    .redesign-backcompat .how_works_item {
+        padding: 0 0 43px 79px;
+        margin-top: -2px;
+    }
+    .redesign-backcompat .how_works_item h3 {
+        margin: 0 0 10px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 27px;
+        color: #444D51;
+    }
+    .redesign-backcompat .how_grow_section h2 {
+        margin: 0 0 38px;
+    }
+    .redesign-backcompat .how_grow_descr {
+        margin: 0 auto 60px;
+    }
+    .redesign-backcompat .how_grow_item {
+        line-height: 26px;
+    }
+    .redesign-backcompat .how_grow_item h3 {
+        padding-top: 19px;
+        margin-bottom: 22px;
+    }
+    .redesign-backcompat .testimonial_item {
+        padding: 108px 0 0;
+    }
+    .redesign-backcompat .testimonial_item_left {
+        padding: 0 47px;
+        margin-bottom: 75px;
+    }
+    .redesign-backcompat .testimonial_description {
+        margin: 0 0 44px;
+    }
+    .redesign-backcompat .advantage_item {
+        padding: 42px 15px 12px;
+    }
+    .redesign-backcompat .advantage_item h3 {
+        margin-bottom: 15px;
+    }
+    .redesign-backcompat .attr_image img {
+        width: 100%;
+        height: auto;
+    }
+    .redesign-backcompat .attr_image figure {
+        width: 481px;
+    }
+    .redesign-backcompat .attr_image {
+        left: -47px;
+        top: 52px;
+    }
+    .redesign-backcompat .attract_section .wp-block-group :not(.attr_image) {
+        max-height: 520px;
+        overflow: hidden;
+    }
+    .redesign-backcompat .attr_wrapper {
+        margin-top: 120px;
+    }
+    .redesign-backcompat .attr_wrapper {
+        text-align: center;
+    }
+    .redesign-backcompat .attr_wrapper p {
+        padding-top: 20px;
+        margin-bottom: 58px;
+    }
+    .redesign-backcompat .effortless_wrapper p {
+        margin-bottom: 82px;
+        padding-top: 18px;
+    }
+    .redesign-backcompat .resources_section {
+        padding-bottom: 139px;
+    }
+    .redesign-backcompat .form1 {
+        padding-top: 45px;
+    }
+    .redesign-backcompat .form1 .gfield input {
+        height: 47px;
+        padding: 10px 17px;
+    }
+    .redesign-backcompat .form1 .gfield--width-half {
+        width: 100%;
+        flex: 100% 0 0;
+        margin-bottom: 25px;
+    }
+    .redesign-backcompat .form1 .gform_footer {
+        width: 100%;
+        right: auto;
+        bottom: auto;
+        position: relative;
+    }
+    .redesign-backcompat .form1 .gf_submit {
+        padding: 13px 15px;
+    }
+    .redesign-backcompat .homeform {
+        padding: 0 24px 71px;
+    }
+    .redesign-backcompat .main-footer .col-lg-4,
+    .redesign-backcompat.main-footer .col-lg-4 {
+        max-width: 100%;
+        flex: 100% 0 0;
+        order: 3;
+    }
+    .redesign-backcompat .main-footer .col-lg-3,
+    .redesign-backcompat.main-footer .col-lg-3 {
+        order: 1;
+        max-width: 100%;
+        flex: 100% 0 0;
+    }
+    .redesign-backcompat .footer_menu_wrap {
+        order: 2;
+        padding-top: 20px;
+        flex-direction: column-reverse;
+    }
+    .redesign-backcompat .main-footer,
+    .redesign-backcompat.main-footer {
+        padding: 62px 0;
+        text-align: center;
+    }
+    .redesign-backcompat .main-footer h3,
+    .redesign-backcompat.main-footer h3 {
+        margin-bottom: 15px;
+    }
+    .redesign-backcompat .footer_menu .menu li {
+        margin-bottom: 16px;
+    }
+    .redesign-backcompat .main-footer .footer_menu_wrap .col-lg-2,
+    .redesign-backcompat .main-footer .footer_menu_wrap .col-lg-3,
+    .redesign-backcompat.main-footer .footer_menu_wrap .col-lg-2,
+    .redesign-backcompat.main-footer .footer_menu_wrap .col-lg-3 {
+        max-width: 100%;
+        flex: 100% 0 0;
+    }
+    .redesign-backcompat .menu-legal-container {
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .redesign-backcompat .menu-legal-container::after,
+    .redesign-backcompat .menu-legal-container::before {
+        content: '';
+        position: absolute;
+        top: -69px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: #2b569c;
+        height: 1px;
+        width: 180px;
+        display: block;
+    }
+    .redesign-backcompat .menu-legal-container::after {
+        top: auto;
+        bottom: 0;
+    }
+    .redesign-backcompat .footer_logo_inner .logo {
+        display: inline-block;
+        margin-bottom: 28px;
+    }
+    .redesign-backcompat .footer_logo_inner {
+        padding-top: 61px;
+    }
+    .redesign-backcompat .copyright {
+        padding: 7px 0 25px;
+    }
+    .redesign-backcompat .phone_wrap {
+        margin-bottom: 42px;
+    }
+    .redesign-backcompat .menu-social-menu-container .menu li.fa a::before {
+        width: 40px;
+        font-size: 22px;
+        line-height: 22px;
+        height: 40px;
+    }
+    .redesign-backcompat .menu-social-menu-container .menu li {
+        margin-right: 16px;
+    }
+    .redesign-backcompat .shoppers_hero .hero_descr {
+        padding-right: 0;
+    }
+    .redesign-backcompat .buying_3 .buying_put figure {
+        top: 5px;
+    }
+}
+@media (max-width: 460px) {
+    .redesign-backcompat .buying_2 {
+        padding: 166px 0;
+    }
+    .redesign-backcompat .better-top h1 {
+        font-size: 44px;
+    }
+    .redesign-backcompat .better-top-wrapper {
+        padding: 0;
+    }
+    .redesign-backcompat .form-sign-up .gfield--width-half {
+        width: 100%;
+    }
+    .redesign-backcompat .form-sign-up {
+        padding: 41px 15px;
+    }
+    .redesign-backcompat .testimonials-slider-wrapper h2 {
+        margin-bottom: 70px;
+    }
+    .redesign-backcompat .testimonials-slider-quote {
+        top: 100px;
+    }
+    .redesign-backcompat .container.business-grow-section {
+        padding-top: 85px;
+    }
+    .redesign-backcompat .business-grow {
+        padding: 56px 15px 95px;
+    }
+    .redesign-backcompat .business-grow-note {
+        left: 15px;
+    }
+    .redesign-backcompat .effortless-wrapper figure {
+        width: 100%;
+        text-align: center;
+    }
+    .redesign-backcompat .effortless-wrapper figure img {
+        display: inline-block;
+    }
+    .redesign-backcompat .share-more-section .form-sign-up_wrapper {
+        padding: 0 15px;
+    }
+    .redesign-backcompat .share-more-section .form-sign-up {
+        padding: 15px 0;
+    }
+    .redesign-backcompat .gform_validation_errors {
+        bottom: 76px;
+        top: auto;
+        left: 15px;
+        position: absolute;
+    }
+    .redesign-backcompat .share-more-section .gform_validation_errors {
+        bottom: 52px;
+    }
+}
+@media (max-width: 400px) {
+    .redesign-backcompat .buying_totall {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .redesign-backcompat .buying_1 {
+        padding: 156px 0 30px;
+    }
+    .redesign-backcompat .buying_2 {
+        position: relative;
+        padding: 125px 0;
+    }
+}
+@media (max-width: 340px) {
+    .redesign-backcompat .p1 {
+        padding-top: 3rem;
+    }
+    .redesign-backcompat .p2 {
+        padding-top: 2rem;
+    }
+    .redesign-backcompat .p3 {
+        padding-top: 1rem;
+    }
+    .redesign-backcompat .banner-wrapper h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .redesign-backcompat .banner-description {
+        font-size: 30px;
+        line-height: 42px;
+    }
+}
+
+.redesign-backcompat #FP-redesign-CenteredText.container{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 767px) {
+    .redesign-backcompat #FP-redesign-CenteredText.container{
+        max-width: 767px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 991px) {
+    .redesign-backcompat #FP-redesign-CenteredText.container{
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 1199px) {
+    .redesign-backcompat #FP-redesign-CenteredText.container{
+        max-width: 1050px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 1300px) {
+    .redesign-backcompat #FP-redesign-CenteredText.container{
+        max-width: 1050px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
